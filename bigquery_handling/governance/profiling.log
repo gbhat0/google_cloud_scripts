@@ -1,0 +1,4926 @@
+2023-09-11 13:54:04,780 - logger - INFO - ########################## START ##########################
+2023-09-11 13:54:04,780 - logger - INFO - Prefix -> tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_
+2023-09-11 13:54:06,348 - logger - INFO - ########################## PROFILING ON    
+2023-09-11 13:54:06,951 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_demografico_cor flatten
+2023-09-11 13:54:07,525 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envio_env flatten
+2023-09-11 13:54:08,083 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envioconsolidado_env flatten
+2023-09-11 13:54:08,672 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviodinamico_env flatten
+2023-09-11 13:54:09,199 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviolog_env flatten
+2023-09-11 13:54:09,760 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envionovedadlog_env flatten
+2023-09-11 13:54:10,352 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiesto_des flatten
+2023-09-11 13:54:10,913 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiestoenvio_des flatten
+2023-09-11 13:54:11,801 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_novedadenvio_env flatten
+2023-09-11 13:54:12,460 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_oficina_org flatten
+2023-09-11 13:54:13,253 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_planillareparto_env flatten
+2023-09-11 13:54:14,140 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_poblacion_cor flatten
+2023-09-11 13:54:14,892 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_repartoenvio_env flatten
+2023-09-11 13:54:15,470 - logger - INFO - tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_vehiculo_veh flatten
+2023-09-11 13:54:15,554 - logger - INFO - 
+            ###################### 
+            Table Level Query         
+            select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_demografico_cor' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_demografico_cor
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envio_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envio_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envioconsolidado_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envioconsolidado_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviodinamico_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviodinamico_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviolog_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviolog_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envionovedadlog_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envionovedadlog_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiesto_des' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiesto_des
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiestoenvio_des' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiestoenvio_des
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_novedadenvio_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_novedadenvio_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_oficina_org' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_oficina_org
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_planillareparto_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_planillareparto_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_poblacion_cor' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_poblacion_cor
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_repartoenvio_env' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_repartoenvio_env
+         
+ UNION ALL 
+ select 
+        'tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_vehiculo_veh' as table_name,
+        "" as partition_column,
+        count(1) as count_table, 
+        NULL as min_partition_column,
+        NULL as max_partition_column,
+        
+        FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_vehiculo_veh
+            
+2023-09-11 13:54:27,372 - logger - INFO - Query Execution Ends
+2023-09-11 13:54:27,391 - logger - INFO - Total Time Taken to execute query is 11.837 sec
+2023-09-11 13:54:27,488 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_demografico_cor  
+     SELECT 
+        count(`idDemografico`) as idDemografico_total,
+        
+        count(distinct(`idDemografico`)) as idDemografico_distinct,
+        
+        countif(`idDemografico` is not null) as idDemografico_not_null,
+        
+        cast(min(`idDemografico`) as string) as idDemografico_min,
+        
+        cast(min(`idDemografico`) as string) as idDemografico_max,
+        
+        count(`idTipoDocumento`) as idTipoDocumento_total,
+        
+        count(distinct(`idTipoDocumento`)) as idTipoDocumento_distinct,
+        
+        countif(`idTipoDocumento` is not null) as idTipoDocumento_not_null,
+        
+        cast(min(`idTipoDocumento`) as string) as idTipoDocumento_min,
+        
+        cast(min(`idTipoDocumento`) as string) as idTipoDocumento_max,
+        
+        count(`firstName`) as firstName_total,
+        
+        count(distinct(`firstName`)) as firstName_distinct,
+        
+        countif(`firstName` is not null) as firstName_not_null,
+        
+        cast(min(`firstName`) as string) as firstName_min,
+        
+        cast(min(`firstName`) as string) as firstName_max,
+        
+        count(`middleName`) as middleName_total,
+        
+        count(distinct(`middleName`)) as middleName_distinct,
+        
+        countif(`middleName` is not null) as middleName_not_null,
+        
+        cast(min(`middleName`) as string) as middleName_min,
+        
+        cast(min(`middleName`) as string) as middleName_max,
+        
+        count(`lastName`) as lastName_total,
+        
+        count(distinct(`lastName`)) as lastName_distinct,
+        
+        countif(`lastName` is not null) as lastName_not_null,
+        
+        cast(min(`lastName`) as string) as lastName_min,
+        
+        cast(min(`lastName`) as string) as lastName_max,
+        
+        count(`secondLastName`) as secondLastName_total,
+        
+        count(distinct(`secondLastName`)) as secondLastName_distinct,
+        
+        countif(`secondLastName` is not null) as secondLastName_not_null,
+        
+        cast(min(`secondLastName`) as string) as secondLastName_min,
+        
+        cast(min(`secondLastName`) as string) as secondLastName_max,
+        
+        count(`phone`) as phone_total,
+        
+        count(distinct(`phone`)) as phone_distinct,
+        
+        countif(`phone` is not null) as phone_not_null,
+        
+        cast(min(`phone`) as string) as phone_min,
+        
+        cast(min(`phone`) as string) as phone_max,
+        
+        count(`cellular`) as cellular_total,
+        
+        count(distinct(`cellular`)) as cellular_distinct,
+        
+        countif(`cellular` is not null) as cellular_not_null,
+        
+        cast(min(`cellular`) as string) as cellular_min,
+        
+        cast(min(`cellular`) as string) as cellular_max,
+        
+        count(`address`) as address_total,
+        
+        count(distinct(`address`)) as address_distinct,
+        
+        countif(`address` is not null) as address_not_null,
+        
+        cast(min(`address`) as string) as address_min,
+        
+        cast(min(`address`) as string) as address_max,
+        
+        count(`addressComplement`) as addressComplement_total,
+        
+        count(distinct(`addressComplement`)) as addressComplement_distinct,
+        
+        countif(`addressComplement` is not null) as addressComplement_not_null,
+        
+        cast(min(`addressComplement`) as string) as addressComplement_min,
+        
+        cast(min(`addressComplement`) as string) as addressComplement_max,
+        
+        count(`email`) as email_total,
+        
+        count(distinct(`email`)) as email_distinct,
+        
+        countif(`email` is not null) as email_not_null,
+        
+        cast(min(`email`) as string) as email_min,
+        
+        cast(min(`email`) as string) as email_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`externalControlId`) as externalControlId_total,
+        
+        count(distinct(`externalControlId`)) as externalControlId_distinct,
+        
+        countif(`externalControlId` is not null) as externalControlId_not_null,
+        
+        cast(min(`externalControlId`) as string) as externalControlId_min,
+        
+        cast(min(`externalControlId`) as string) as externalControlId_max,
+        
+        count(`externalAdminId`) as externalAdminId_total,
+        
+        count(distinct(`externalAdminId`)) as externalAdminId_distinct,
+        
+        countif(`externalAdminId` is not null) as externalAdminId_not_null,
+        
+        cast(min(`externalAdminId`) as string) as externalAdminId_min,
+        
+        cast(min(`externalAdminId`) as string) as externalAdminId_max,
+        
+        count(`latitude`) as latitude_total,
+        
+        count(distinct(`latitude`)) as latitude_distinct,
+        
+        countif(`latitude` is not null) as latitude_not_null,
+        
+        cast(min(`latitude`) as string) as latitude_min,
+        
+        cast(min(`latitude`) as string) as latitude_max,
+        
+        count(`longitude`) as longitude_total,
+        
+        count(distinct(`longitude`)) as longitude_distinct,
+        
+        countif(`longitude` is not null) as longitude_not_null,
+        
+        cast(min(`longitude`) as string) as longitude_min,
+        
+        cast(min(`longitude`) as string) as longitude_max,
+        
+        count(`attributeOne`) as attributeOne_total,
+        
+        count(distinct(`attributeOne`)) as attributeOne_distinct,
+        
+        countif(`attributeOne` is not null) as attributeOne_not_null,
+        
+        cast(min(`attributeOne`) as string) as attributeOne_min,
+        
+        cast(min(`attributeOne`) as string) as attributeOne_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_demografico_cor    
+    ########################
+2023-09-11 13:54:39,540 - logger - INFO - Query Execution Ends
+2023-09-11 13:54:39,541 - logger - INFO - Total Time Taken to execute query is 12.036 sec
+2023-09-11 13:54:39,627 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envio_env  
+     SELECT 
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`ordernumber`) as ordernumber_total,
+        
+        count(distinct(`ordernumber`)) as ordernumber_distinct,
+        
+        countif(`ordernumber` is not null) as ordernumber_not_null,
+        
+        cast(min(`ordernumber`) as string) as ordernumber_min,
+        
+        cast(min(`ordernumber`) as string) as ordernumber_max,
+        
+        count(`unique_key`) as unique_key_total,
+        
+        count(distinct(`unique_key`)) as unique_key_distinct,
+        
+        countif(`unique_key` is not null) as unique_key_not_null,
+        
+        cast(min(`unique_key`) as string) as unique_key_min,
+        
+        cast(min(`unique_key`) as string) as unique_key_max,
+        
+        count(`originoffice_id`) as originoffice_id_total,
+        
+        count(distinct(`originoffice_id`)) as originoffice_id_distinct,
+        
+        countif(`originoffice_id` is not null) as originoffice_id_not_null,
+        
+        cast(min(`originoffice_id`) as string) as originoffice_id_min,
+        
+        cast(min(`originoffice_id`) as string) as originoffice_id_max,
+        
+        count(`destinationoffice_id`) as destinationoffice_id_total,
+        
+        count(distinct(`destinationoffice_id`)) as destinationoffice_id_distinct,
+        
+        countif(`destinationoffice_id` is not null) as destinationoffice_id_not_null,
+        
+        cast(min(`destinationoffice_id`) as string) as destinationoffice_id_min,
+        
+        cast(min(`destinationoffice_id`) as string) as destinationoffice_id_max,
+        
+        count(`origincountry_id`) as origincountry_id_total,
+        
+        count(distinct(`origincountry_id`)) as origincountry_id_distinct,
+        
+        countif(`origincountry_id` is not null) as origincountry_id_not_null,
+        
+        cast(min(`origincountry_id`) as string) as origincountry_id_min,
+        
+        cast(min(`origincountry_id`) as string) as origincountry_id_max,
+        
+        count(`origincity_id`) as origincity_id_total,
+        
+        count(distinct(`origincity_id`)) as origincity_id_distinct,
+        
+        countif(`origincity_id` is not null) as origincity_id_not_null,
+        
+        cast(min(`origincity_id`) as string) as origincity_id_min,
+        
+        cast(min(`origincity_id`) as string) as origincity_id_max,
+        
+        count(`destinationcountry_id`) as destinationcountry_id_total,
+        
+        count(distinct(`destinationcountry_id`)) as destinationcountry_id_distinct,
+        
+        countif(`destinationcountry_id` is not null) as destinationcountry_id_not_null,
+        
+        cast(min(`destinationcountry_id`) as string) as destinationcountry_id_min,
+        
+        cast(min(`destinationcountry_id`) as string) as destinationcountry_id_max,
+        
+        count(`destinationcity_id`) as destinationcity_id_total,
+        
+        count(distinct(`destinationcity_id`)) as destinationcity_id_distinct,
+        
+        countif(`destinationcity_id` is not null) as destinationcity_id_not_null,
+        
+        cast(min(`destinationcity_id`) as string) as destinationcity_id_min,
+        
+        cast(min(`destinationcity_id`) as string) as destinationcity_id_max,
+        
+        count(`weight_paidOff`) as weight_paidOff_total,
+        
+        count(distinct(`weight_paidOff`)) as weight_paidOff_distinct,
+        
+        countif(`weight_paidOff` is not null) as weight_paidOff_not_null,
+        
+        cast(min(`weight_paidOff`) as string) as weight_paidOff_min,
+        
+        cast(min(`weight_paidOff`) as string) as weight_paidOff_max,
+        
+        count(`wieght_measure`) as wieght_measure_total,
+        
+        count(distinct(`wieght_measure`)) as wieght_measure_distinct,
+        
+        countif(`wieght_measure` is not null) as wieght_measure_not_null,
+        
+        cast(min(`wieght_measure`) as string) as wieght_measure_min,
+        
+        cast(min(`wieght_measure`) as string) as wieght_measure_max,
+        
+        count(`weight_cm3`) as weight_cm3_total,
+        
+        count(distinct(`weight_cm3`)) as weight_cm3_distinct,
+        
+        countif(`weight_cm3` is not null) as weight_cm3_not_null,
+        
+        cast(min(`weight_cm3`) as string) as weight_cm3_min,
+        
+        cast(min(`weight_cm3`) as string) as weight_cm3_max,
+        
+        count(`height`) as height_total,
+        
+        count(distinct(`height`)) as height_distinct,
+        
+        countif(`height` is not null) as height_not_null,
+        
+        cast(min(`height`) as string) as height_min,
+        
+        cast(min(`height`) as string) as height_max,
+        
+        count(`length`) as length_total,
+        
+        count(distinct(`length`)) as length_distinct,
+        
+        countif(`length` is not null) as length_not_null,
+        
+        cast(min(`length`) as string) as length_min,
+        
+        cast(min(`length`) as string) as length_max,
+        
+        count(`width`) as width_total,
+        
+        count(distinct(`width`)) as width_distinct,
+        
+        countif(`width` is not null) as width_not_null,
+        
+        cast(min(`width`) as string) as width_min,
+        
+        cast(min(`width`) as string) as width_max,
+        
+        count(`status_id`) as status_id_total,
+        
+        count(distinct(`status_id`)) as status_id_distinct,
+        
+        countif(`status_id` is not null) as status_id_not_null,
+        
+        cast(min(`status_id`) as string) as status_id_min,
+        
+        cast(min(`status_id`) as string) as status_id_max,
+        
+        count(`status_name`) as status_name_total,
+        
+        count(distinct(`status_name`)) as status_name_distinct,
+        
+        countif(`status_name` is not null) as status_name_not_null,
+        
+        cast(min(`status_name`) as string) as status_name_min,
+        
+        cast(min(`status_name`) as string) as status_name_max,
+        
+        count(`total_value`) as total_value_total,
+        
+        count(distinct(`total_value`)) as total_value_distinct,
+        
+        countif(`total_value` is not null) as total_value_not_null,
+        
+        cast(min(`total_value`) as string) as total_value_min,
+        
+        cast(min(`total_value`) as string) as total_value_max,
+        
+        count(`insurance_value`) as insurance_value_total,
+        
+        count(distinct(`insurance_value`)) as insurance_value_distinct,
+        
+        countif(`insurance_value` is not null) as insurance_value_not_null,
+        
+        cast(min(`insurance_value`) as string) as insurance_value_min,
+        
+        cast(min(`insurance_value`) as string) as insurance_value_max,
+        
+        count(`shipping_cost`) as shipping_cost_total,
+        
+        count(distinct(`shipping_cost`)) as shipping_cost_distinct,
+        
+        countif(`shipping_cost` is not null) as shipping_cost_not_null,
+        
+        cast(min(`shipping_cost`) as string) as shipping_cost_min,
+        
+        cast(min(`shipping_cost`) as string) as shipping_cost_max,
+        
+        count(`package_cost`) as package_cost_total,
+        
+        count(distinct(`package_cost`)) as package_cost_distinct,
+        
+        countif(`package_cost` is not null) as package_cost_not_null,
+        
+        cast(min(`package_cost`) as string) as package_cost_min,
+        
+        cast(min(`package_cost`) as string) as package_cost_max,
+        
+        count(`freight_value`) as freight_value_total,
+        
+        count(distinct(`freight_value`)) as freight_value_distinct,
+        
+        countif(`freight_value` is not null) as freight_value_not_null,
+        
+        cast(min(`freight_value`) as string) as freight_value_min,
+        
+        cast(min(`freight_value`) as string) as freight_value_max,
+        
+        count(`service_order`) as service_order_total,
+        
+        count(distinct(`service_order`)) as service_order_distinct,
+        
+        countif(`service_order` is not null) as service_order_not_null,
+        
+        cast(min(`service_order`) as string) as service_order_min,
+        
+        cast(min(`service_order`) as string) as service_order_max,
+        
+        count(`is_servico_order`) as is_servico_order_total,
+        
+        count(distinct(`is_servico_order`)) as is_servico_order_distinct,
+        
+        countif(`is_servico_order` is not null) as is_servico_order_not_null,
+        
+        cast(min(`is_servico_order`) as string) as is_servico_order_min,
+        
+        cast(min(`is_servico_order`) as string) as is_servico_order_max,
+        
+        count(`o_first_name`) as o_first_name_total,
+        
+        count(distinct(`o_first_name`)) as o_first_name_distinct,
+        
+        countif(`o_first_name` is not null) as o_first_name_not_null,
+        
+        cast(min(`o_first_name`) as string) as o_first_name_min,
+        
+        cast(min(`o_first_name`) as string) as o_first_name_max,
+        
+        count(`o_second_name`) as o_second_name_total,
+        
+        count(distinct(`o_second_name`)) as o_second_name_distinct,
+        
+        countif(`o_second_name` is not null) as o_second_name_not_null,
+        
+        cast(min(`o_second_name`) as string) as o_second_name_min,
+        
+        cast(min(`o_second_name`) as string) as o_second_name_max,
+        
+        count(`o_firtst_lastname`) as o_firtst_lastname_total,
+        
+        count(distinct(`o_firtst_lastname`)) as o_firtst_lastname_distinct,
+        
+        countif(`o_firtst_lastname` is not null) as o_firtst_lastname_not_null,
+        
+        cast(min(`o_firtst_lastname`) as string) as o_firtst_lastname_min,
+        
+        cast(min(`o_firtst_lastname`) as string) as o_firtst_lastname_max,
+        
+        count(`o_second_lastname`) as o_second_lastname_total,
+        
+        count(distinct(`o_second_lastname`)) as o_second_lastname_distinct,
+        
+        countif(`o_second_lastname` is not null) as o_second_lastname_not_null,
+        
+        cast(min(`o_second_lastname`) as string) as o_second_lastname_min,
+        
+        cast(min(`o_second_lastname`) as string) as o_second_lastname_max,
+        
+        count(`o_id_doc`) as o_id_doc_total,
+        
+        count(distinct(`o_id_doc`)) as o_id_doc_distinct,
+        
+        countif(`o_id_doc` is not null) as o_id_doc_not_null,
+        
+        cast(min(`o_id_doc`) as string) as o_id_doc_min,
+        
+        cast(min(`o_id_doc`) as string) as o_id_doc_max,
+        
+        count(`o_national_id`) as o_national_id_total,
+        
+        count(distinct(`o_national_id`)) as o_national_id_distinct,
+        
+        countif(`o_national_id` is not null) as o_national_id_not_null,
+        
+        cast(min(`o_national_id`) as string) as o_national_id_min,
+        
+        cast(min(`o_national_id`) as string) as o_national_id_max,
+        
+        count(`o_phone`) as o_phone_total,
+        
+        count(distinct(`o_phone`)) as o_phone_distinct,
+        
+        countif(`o_phone` is not null) as o_phone_not_null,
+        
+        cast(min(`o_phone`) as string) as o_phone_min,
+        
+        cast(min(`o_phone`) as string) as o_phone_max,
+        
+        count(`o_address1`) as o_address1_total,
+        
+        count(distinct(`o_address1`)) as o_address1_distinct,
+        
+        countif(`o_address1` is not null) as o_address1_not_null,
+        
+        cast(min(`o_address1`) as string) as o_address1_min,
+        
+        cast(min(`o_address1`) as string) as o_address1_max,
+        
+        count(`o_address2`) as o_address2_total,
+        
+        count(distinct(`o_address2`)) as o_address2_distinct,
+        
+        countif(`o_address2` is not null) as o_address2_not_null,
+        
+        cast(min(`o_address2`) as string) as o_address2_min,
+        
+        cast(min(`o_address2`) as string) as o_address2_max,
+        
+        count(`o_email`) as o_email_total,
+        
+        count(distinct(`o_email`)) as o_email_distinct,
+        
+        countif(`o_email` is not null) as o_email_not_null,
+        
+        cast(min(`o_email`) as string) as o_email_min,
+        
+        cast(min(`o_email`) as string) as o_email_max,
+        
+        count(`d_first_name`) as d_first_name_total,
+        
+        count(distinct(`d_first_name`)) as d_first_name_distinct,
+        
+        countif(`d_first_name` is not null) as d_first_name_not_null,
+        
+        cast(min(`d_first_name`) as string) as d_first_name_min,
+        
+        cast(min(`d_first_name`) as string) as d_first_name_max,
+        
+        count(`d_secdnd_name`) as d_secdnd_name_total,
+        
+        count(distinct(`d_secdnd_name`)) as d_secdnd_name_distinct,
+        
+        countif(`d_secdnd_name` is not null) as d_secdnd_name_not_null,
+        
+        cast(min(`d_secdnd_name`) as string) as d_secdnd_name_min,
+        
+        cast(min(`d_secdnd_name`) as string) as d_secdnd_name_max,
+        
+        count(`d_firtst_lastname`) as d_firtst_lastname_total,
+        
+        count(distinct(`d_firtst_lastname`)) as d_firtst_lastname_distinct,
+        
+        countif(`d_firtst_lastname` is not null) as d_firtst_lastname_not_null,
+        
+        cast(min(`d_firtst_lastname`) as string) as d_firtst_lastname_min,
+        
+        cast(min(`d_firtst_lastname`) as string) as d_firtst_lastname_max,
+        
+        count(`d_secdnd_lastname`) as d_secdnd_lastname_total,
+        
+        count(distinct(`d_secdnd_lastname`)) as d_secdnd_lastname_distinct,
+        
+        countif(`d_secdnd_lastname` is not null) as d_secdnd_lastname_not_null,
+        
+        cast(min(`d_secdnd_lastname`) as string) as d_secdnd_lastname_min,
+        
+        cast(min(`d_secdnd_lastname`) as string) as d_secdnd_lastname_max,
+        
+        count(`d_id_ddc`) as d_id_ddc_total,
+        
+        count(distinct(`d_id_ddc`)) as d_id_ddc_distinct,
+        
+        countif(`d_id_ddc` is not null) as d_id_ddc_not_null,
+        
+        cast(min(`d_id_ddc`) as string) as d_id_ddc_min,
+        
+        cast(min(`d_id_ddc`) as string) as d_id_ddc_max,
+        
+        count(`d_natidnal_id`) as d_natidnal_id_total,
+        
+        count(distinct(`d_natidnal_id`)) as d_natidnal_id_distinct,
+        
+        countif(`d_natidnal_id` is not null) as d_natidnal_id_not_null,
+        
+        cast(min(`d_natidnal_id`) as string) as d_natidnal_id_min,
+        
+        cast(min(`d_natidnal_id`) as string) as d_natidnal_id_max,
+        
+        count(`d_phdne`) as d_phdne_total,
+        
+        count(distinct(`d_phdne`)) as d_phdne_distinct,
+        
+        countif(`d_phdne` is not null) as d_phdne_not_null,
+        
+        cast(min(`d_phdne`) as string) as d_phdne_min,
+        
+        cast(min(`d_phdne`) as string) as d_phdne_max,
+        
+        count(`d_address1`) as d_address1_total,
+        
+        count(distinct(`d_address1`)) as d_address1_distinct,
+        
+        countif(`d_address1` is not null) as d_address1_not_null,
+        
+        cast(min(`d_address1`) as string) as d_address1_min,
+        
+        cast(min(`d_address1`) as string) as d_address1_max,
+        
+        count(`d_address2`) as d_address2_total,
+        
+        count(distinct(`d_address2`)) as d_address2_distinct,
+        
+        countif(`d_address2` is not null) as d_address2_not_null,
+        
+        cast(min(`d_address2`) as string) as d_address2_min,
+        
+        cast(min(`d_address2`) as string) as d_address2_max,
+        
+        count(`d_email`) as d_email_total,
+        
+        count(distinct(`d_email`)) as d_email_distinct,
+        
+        countif(`d_email` is not null) as d_email_not_null,
+        
+        cast(min(`d_email`) as string) as d_email_min,
+        
+        cast(min(`d_email`) as string) as d_email_max,
+        
+        count(`promised_date`) as promised_date_total,
+        
+        count(distinct(`promised_date`)) as promised_date_distinct,
+        
+        countif(`promised_date` is not null) as promised_date_not_null,
+        
+        cast(min(`promised_date`) as string) as promised_date_min,
+        
+        cast(min(`promised_date`) as string) as promised_date_max,
+        
+        count(`delivery_date`) as delivery_date_total,
+        
+        count(distinct(`delivery_date`)) as delivery_date_distinct,
+        
+        countif(`delivery_date` is not null) as delivery_date_not_null,
+        
+        cast(min(`delivery_date`) as string) as delivery_date_min,
+        
+        cast(min(`delivery_date`) as string) as delivery_date_max,
+        
+        count(`record_date`) as record_date_total,
+        
+        count(distinct(`record_date`)) as record_date_distinct,
+        
+        countif(`record_date` is not null) as record_date_not_null,
+        
+        cast(min(`record_date`) as string) as record_date_min,
+        
+        cast(min(`record_date`) as string) as record_date_max,
+        
+        count(`is_active`) as is_active_total,
+        
+        count(distinct(`is_active`)) as is_active_distinct,
+        
+        countif(`is_active` is not null) as is_active_not_null,
+        
+        cast(min(`is_active`) as string) as is_active_min,
+        
+        cast(min(`is_active`) as string) as is_active_max,
+        
+        count(`sku`) as sku_total,
+        
+        count(distinct(`sku`)) as sku_distinct,
+        
+        countif(`sku` is not null) as sku_not_null,
+        
+        cast(min(`sku`) as string) as sku_min,
+        
+        cast(min(`sku`) as string) as sku_max,
+        
+        count(`sku_name`) as sku_name_total,
+        
+        count(distinct(`sku_name`)) as sku_name_distinct,
+        
+        countif(`sku_name` is not null) as sku_name_not_null,
+        
+        cast(min(`sku_name`) as string) as sku_name_min,
+        
+        cast(min(`sku_name`) as string) as sku_name_max,
+        
+        count(`id_deliveryMethod`) as id_deliveryMethod_total,
+        
+        count(distinct(`id_deliveryMethod`)) as id_deliveryMethod_distinct,
+        
+        countif(`id_deliveryMethod` is not null) as id_deliveryMethod_not_null,
+        
+        cast(min(`id_deliveryMethod`) as string) as id_deliveryMethod_min,
+        
+        cast(min(`id_deliveryMethod`) as string) as id_deliveryMethod_max,
+        
+        count(`deliveryMethod`) as deliveryMethod_total,
+        
+        count(distinct(`deliveryMethod`)) as deliveryMethod_distinct,
+        
+        countif(`deliveryMethod` is not null) as deliveryMethod_not_null,
+        
+        cast(min(`deliveryMethod`) as string) as deliveryMethod_min,
+        
+        cast(min(`deliveryMethod`) as string) as deliveryMethod_max,
+        
+        count(`client_id`) as client_id_total,
+        
+        count(distinct(`client_id`)) as client_id_distinct,
+        
+        countif(`client_id` is not null) as client_id_not_null,
+        
+        cast(min(`client_id`) as string) as client_id_min,
+        
+        cast(min(`client_id`) as string) as client_id_max,
+        
+        count(`is_private`) as is_private_total,
+        
+        count(distinct(`is_private`)) as is_private_distinct,
+        
+        countif(`is_private` is not null) as is_private_not_null,
+        
+        cast(min(`is_private`) as string) as is_private_min,
+        
+        cast(min(`is_private`) as string) as is_private_max,
+        
+        count(`is_manual`) as is_manual_total,
+        
+        count(distinct(`is_manual`)) as is_manual_distinct,
+        
+        countif(`is_manual` is not null) as is_manual_not_null,
+        
+        cast(min(`is_manual`) as string) as is_manual_min,
+        
+        cast(min(`is_manual`) as string) as is_manual_max,
+        
+        count(`part`) as part_total,
+        
+        count(distinct(`part`)) as part_distinct,
+        
+        countif(`part` is not null) as part_not_null,
+        
+        cast(min(`part`) as string) as part_min,
+        
+        cast(min(`part`) as string) as part_max,
+        
+        count(`quantity`) as quantity_total,
+        
+        count(distinct(`quantity`)) as quantity_distinct,
+        
+        countif(`quantity` is not null) as quantity_not_null,
+        
+        cast(min(`quantity`) as string) as quantity_min,
+        
+        cast(min(`quantity`) as string) as quantity_max,
+        
+        count(`o_postal_code`) as o_postal_code_total,
+        
+        count(distinct(`o_postal_code`)) as o_postal_code_distinct,
+        
+        countif(`o_postal_code` is not null) as o_postal_code_not_null,
+        
+        cast(min(`o_postal_code`) as string) as o_postal_code_min,
+        
+        cast(min(`o_postal_code`) as string) as o_postal_code_max,
+        
+        count(`d_postal_code`) as d_postal_code_total,
+        
+        count(distinct(`d_postal_code`)) as d_postal_code_distinct,
+        
+        countif(`d_postal_code` is not null) as d_postal_code_not_null,
+        
+        cast(min(`d_postal_code`) as string) as d_postal_code_min,
+        
+        cast(min(`d_postal_code`) as string) as d_postal_code_max,
+        
+        count(`is_cod`) as is_cod_total,
+        
+        count(distinct(`is_cod`)) as is_cod_distinct,
+        
+        countif(`is_cod` is not null) as is_cod_not_null,
+        
+        cast(min(`is_cod`) as string) as is_cod_min,
+        
+        cast(min(`is_cod`) as string) as is_cod_max,
+        
+        count(`id_lastorigin`) as id_lastorigin_total,
+        
+        count(distinct(`id_lastorigin`)) as id_lastorigin_distinct,
+        
+        countif(`id_lastorigin` is not null) as id_lastorigin_not_null,
+        
+        cast(min(`id_lastorigin`) as string) as id_lastorigin_min,
+        
+        cast(min(`id_lastorigin`) as string) as id_lastorigin_max,
+        
+        count(`user_registry`) as user_registry_total,
+        
+        count(distinct(`user_registry`)) as user_registry_distinct,
+        
+        countif(`user_registry` is not null) as user_registry_not_null,
+        
+        cast(min(`user_registry`) as string) as user_registry_min,
+        
+        cast(min(`user_registry`) as string) as user_registry_max,
+        
+        count(`is_cancelled`) as is_cancelled_total,
+        
+        count(distinct(`is_cancelled`)) as is_cancelled_distinct,
+        
+        countif(`is_cancelled` is not null) as is_cancelled_not_null,
+        
+        cast(min(`is_cancelled`) as string) as is_cancelled_min,
+        
+        cast(min(`is_cancelled`) as string) as is_cancelled_max,
+        
+        count(`date_cancelled`) as date_cancelled_total,
+        
+        count(distinct(`date_cancelled`)) as date_cancelled_distinct,
+        
+        countif(`date_cancelled` is not null) as date_cancelled_not_null,
+        
+        cast(min(`date_cancelled`) as string) as date_cancelled_min,
+        
+        cast(min(`date_cancelled`) as string) as date_cancelled_max,
+        
+        count(`id_user`) as id_user_total,
+        
+        count(distinct(`id_user`)) as id_user_distinct,
+        
+        countif(`id_user` is not null) as id_user_not_null,
+        
+        cast(min(`id_user`) as string) as id_user_min,
+        
+        cast(min(`id_user`) as string) as id_user_max,
+        
+        count(`long`) as long_total,
+        
+        count(distinct(`long`)) as long_distinct,
+        
+        countif(`long` is not null) as long_not_null,
+        
+        cast(min(`long`) as string) as long_min,
+        
+        cast(min(`long`) as string) as long_max,
+        
+        count(`lat`) as lat_total,
+        
+        count(distinct(`lat`)) as lat_distinct,
+        
+        countif(`lat` is not null) as lat_not_null,
+        
+        cast(min(`lat`) as string) as lat_min,
+        
+        cast(min(`lat`) as string) as lat_max,
+        
+        count(`id_office`) as id_office_total,
+        
+        count(distinct(`id_office`)) as id_office_distinct,
+        
+        countif(`id_office` is not null) as id_office_not_null,
+        
+        cast(min(`id_office`) as string) as id_office_min,
+        
+        cast(min(`id_office`) as string) as id_office_max,
+        
+        count(`idOfAnc`) as idOfAnc_total,
+        
+        count(distinct(`idOfAnc`)) as idOfAnc_distinct,
+        
+        countif(`idOfAnc` is not null) as idOfAnc_not_null,
+        
+        cast(min(`idOfAnc`) as string) as idOfAnc_min,
+        
+        cast(min(`idOfAnc`) as string) as idOfAnc_max,
+        
+        count(`observation`) as observation_total,
+        
+        count(distinct(`observation`)) as observation_distinct,
+        
+        countif(`observation` is not null) as observation_not_null,
+        
+        cast(min(`observation`) as string) as observation_min,
+        
+        cast(min(`observation`) as string) as observation_max,
+        
+        count(`receiver`) as receiver_total,
+        
+        count(distinct(`receiver`)) as receiver_distinct,
+        
+        countif(`receiver` is not null) as receiver_not_null,
+        
+        cast(min(`receiver`) as string) as receiver_min,
+        
+        cast(min(`receiver`) as string) as receiver_max,
+        
+        count(`id_receiver`) as id_receiver_total,
+        
+        count(distinct(`id_receiver`)) as id_receiver_distinct,
+        
+        countif(`id_receiver` is not null) as id_receiver_not_null,
+        
+        cast(min(`id_receiver`) as string) as id_receiver_min,
+        
+        cast(min(`id_receiver`) as string) as id_receiver_max,
+        
+        count(`resolution`) as resolution_total,
+        
+        count(distinct(`resolution`)) as resolution_distinct,
+        
+        countif(`resolution` is not null) as resolution_not_null,
+        
+        cast(min(`resolution`) as string) as resolution_min,
+        
+        cast(min(`resolution`) as string) as resolution_max,
+        
+        count(`external_ordernumber`) as external_ordernumber_total,
+        
+        count(distinct(`external_ordernumber`)) as external_ordernumber_distinct,
+        
+        countif(`external_ordernumber` is not null) as external_ordernumber_not_null,
+        
+        cast(min(`external_ordernumber`) as string) as external_ordernumber_min,
+        
+        cast(min(`external_ordernumber`) as string) as external_ordernumber_max,
+        
+        count(`control_number`) as control_number_total,
+        
+        count(distinct(`control_number`)) as control_number_distinct,
+        
+        countif(`control_number` is not null) as control_number_not_null,
+        
+        cast(min(`control_number`) as string) as control_number_min,
+        
+        cast(min(`control_number`) as string) as control_number_max,
+        
+        count(`is_dinamicValues`) as is_dinamicValues_total,
+        
+        count(distinct(`is_dinamicValues`)) as is_dinamicValues_distinct,
+        
+        countif(`is_dinamicValues` is not null) as is_dinamicValues_not_null,
+        
+        cast(min(`is_dinamicValues`) as string) as is_dinamicValues_min,
+        
+        cast(min(`is_dinamicValues`) as string) as is_dinamicValues_max,
+        
+        count(`id_consignment`) as id_consignment_total,
+        
+        count(distinct(`id_consignment`)) as id_consignment_distinct,
+        
+        countif(`id_consignment` is not null) as id_consignment_not_null,
+        
+        cast(min(`id_consignment`) as string) as id_consignment_min,
+        
+        cast(min(`id_consignment`) as string) as id_consignment_max,
+        
+        count(`is_service`) as is_service_total,
+        
+        count(distinct(`is_service`)) as is_service_distinct,
+        
+        countif(`is_service` is not null) as is_service_not_null,
+        
+        cast(min(`is_service`) as string) as is_service_min,
+        
+        cast(min(`is_service`) as string) as is_service_max,
+        
+        count(`id_transporter`) as id_transporter_total,
+        
+        count(distinct(`id_transporter`)) as id_transporter_distinct,
+        
+        countif(`id_transporter` is not null) as id_transporter_not_null,
+        
+        cast(min(`id_transporter`) as string) as id_transporter_min,
+        
+        cast(min(`id_transporter`) as string) as id_transporter_max,
+        
+        count(`transporter_name`) as transporter_name_total,
+        
+        count(distinct(`transporter_name`)) as transporter_name_distinct,
+        
+        countif(`transporter_name` is not null) as transporter_name_not_null,
+        
+        cast(min(`transporter_name`) as string) as transporter_name_min,
+        
+        cast(min(`transporter_name`) as string) as transporter_name_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envio_env    
+    ########################
+2023-09-11 13:55:00,685 - logger - INFO - Query Execution Ends
+2023-09-11 13:55:00,685 - logger - INFO - Total Time Taken to execute query is 21.056 sec
+2023-09-11 13:55:00,775 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envioconsolidado_env  
+     SELECT 
+        count(`consolidatedShipmentId`) as consolidatedShipmentId_total,
+        
+        count(distinct(`consolidatedShipmentId`)) as consolidatedShipmentId_distinct,
+        
+        countif(`consolidatedShipmentId` is not null) as consolidatedShipmentId_not_null,
+        
+        cast(min(`consolidatedShipmentId`) as string) as consolidatedShipmentId_min,
+        
+        cast(min(`consolidatedShipmentId`) as string) as consolidatedShipmentId_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`shipmentNumber`) as shipmentNumber_total,
+        
+        count(distinct(`shipmentNumber`)) as shipmentNumber_distinct,
+        
+        countif(`shipmentNumber` is not null) as shipmentNumber_not_null,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_min,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_max,
+        
+        count(`shipmentRegistrationDate`) as shipmentRegistrationDate_total,
+        
+        count(distinct(`shipmentRegistrationDate`)) as shipmentRegistrationDate_distinct,
+        
+        countif(`shipmentRegistrationDate` is not null) as shipmentRegistrationDate_not_null,
+        
+        cast(min(`shipmentRegistrationDate`) as string) as shipmentRegistrationDate_min,
+        
+        cast(min(`shipmentRegistrationDate`) as string) as shipmentRegistrationDate_max,
+        
+        count(`inCollections`) as inCollections_total,
+        
+        count(distinct(`inCollections`)) as inCollections_distinct,
+        
+        countif(`inCollections` is not null) as inCollections_not_null,
+        
+        cast(min(`inCollections`) as string) as inCollections_min,
+        
+        cast(min(`inCollections`) as string) as inCollections_max,
+        
+        count(`collectionIncomes`) as collectionIncomes_total,
+        
+        count(distinct(`collectionIncomes`)) as collectionIncomes_distinct,
+        
+        countif(`collectionIncomes` is not null) as collectionIncomes_not_null,
+        
+        cast(min(`collectionIncomes`) as string) as collectionIncomes_min,
+        
+        cast(min(`collectionIncomes`) as string) as collectionIncomes_max,
+        
+        count(`lastDispatch`) as lastDispatch_total,
+        
+        count(distinct(`lastDispatch`)) as lastDispatch_distinct,
+        
+        countif(`lastDispatch` is not null) as lastDispatch_not_null,
+        
+        cast(min(`lastDispatch`) as string) as lastDispatch_min,
+        
+        cast(min(`lastDispatch`) as string) as lastDispatch_max,
+        
+        count(`dispatches`) as dispatches_total,
+        
+        count(distinct(`dispatches`)) as dispatches_distinct,
+        
+        countif(`dispatches` is not null) as dispatches_not_null,
+        
+        cast(min(`dispatches`) as string) as dispatches_min,
+        
+        cast(min(`dispatches`) as string) as dispatches_max,
+        
+        count(`lastIncome`) as lastIncome_total,
+        
+        count(distinct(`lastIncome`)) as lastIncome_distinct,
+        
+        countif(`lastIncome` is not null) as lastIncome_not_null,
+        
+        cast(min(`lastIncome`) as string) as lastIncome_min,
+        
+        cast(min(`lastIncome`) as string) as lastIncome_max,
+        
+        count(`dispatchIncomes`) as dispatchIncomes_total,
+        
+        count(distinct(`dispatchIncomes`)) as dispatchIncomes_distinct,
+        
+        countif(`dispatchIncomes` is not null) as dispatchIncomes_not_null,
+        
+        cast(min(`dispatchIncomes`) as string) as dispatchIncomes_min,
+        
+        cast(min(`dispatchIncomes`) as string) as dispatchIncomes_max,
+        
+        count(`lastInWarehouse`) as lastInWarehouse_total,
+        
+        count(distinct(`lastInWarehouse`)) as lastInWarehouse_distinct,
+        
+        countif(`lastInWarehouse` is not null) as lastInWarehouse_not_null,
+        
+        cast(min(`lastInWarehouse`) as string) as lastInWarehouse_min,
+        
+        cast(min(`lastInWarehouse`) as string) as lastInWarehouse_max,
+        
+        count(`lastInDelivery`) as lastInDelivery_total,
+        
+        count(distinct(`lastInDelivery`)) as lastInDelivery_distinct,
+        
+        countif(`lastInDelivery` is not null) as lastInDelivery_not_null,
+        
+        cast(min(`lastInDelivery`) as string) as lastInDelivery_min,
+        
+        cast(min(`lastInDelivery`) as string) as lastInDelivery_max,
+        
+        count(`deliveryIncomes`) as deliveryIncomes_total,
+        
+        count(distinct(`deliveryIncomes`)) as deliveryIncomes_distinct,
+        
+        countif(`deliveryIncomes` is not null) as deliveryIncomes_not_null,
+        
+        cast(min(`deliveryIncomes`) as string) as deliveryIncomes_min,
+        
+        cast(min(`deliveryIncomes`) as string) as deliveryIncomes_max,
+        
+        count(`deliveries`) as deliveries_total,
+        
+        count(distinct(`deliveries`)) as deliveries_distinct,
+        
+        countif(`deliveries` is not null) as deliveries_not_null,
+        
+        cast(min(`deliveries`) as string) as deliveries_min,
+        
+        cast(min(`deliveries`) as string) as deliveries_max,
+        
+        count(`deliveryDate`) as deliveryDate_total,
+        
+        count(distinct(`deliveryDate`)) as deliveryDate_distinct,
+        
+        countif(`deliveryDate` is not null) as deliveryDate_not_null,
+        
+        cast(min(`deliveryDate`) as string) as deliveryDate_min,
+        
+        cast(min(`deliveryDate`) as string) as deliveryDate_max,
+        
+        count(`lastReturn`) as lastReturn_total,
+        
+        count(distinct(`lastReturn`)) as lastReturn_distinct,
+        
+        countif(`lastReturn` is not null) as lastReturn_not_null,
+        
+        cast(min(`lastReturn`) as string) as lastReturn_min,
+        
+        cast(min(`lastReturn`) as string) as lastReturn_max,
+        
+        count(`returns`) as returns_total,
+        
+        count(distinct(`returns`)) as returns_distinct,
+        
+        countif(`returns` is not null) as returns_not_null,
+        
+        cast(min(`returns`) as string) as returns_min,
+        
+        cast(min(`returns`) as string) as returns_max,
+        
+        count(`lastReshipment`) as lastReshipment_total,
+        
+        count(distinct(`lastReshipment`)) as lastReshipment_distinct,
+        
+        countif(`lastReshipment` is not null) as lastReshipment_not_null,
+        
+        cast(min(`lastReshipment`) as string) as lastReshipment_min,
+        
+        cast(min(`lastReshipment`) as string) as lastReshipment_max,
+        
+        count(`lastReturnToOrigin`) as lastReturnToOrigin_total,
+        
+        count(distinct(`lastReturnToOrigin`)) as lastReturnToOrigin_distinct,
+        
+        countif(`lastReturnToOrigin` is not null) as lastReturnToOrigin_not_null,
+        
+        cast(min(`lastReturnToOrigin`) as string) as lastReturnToOrigin_min,
+        
+        cast(min(`lastReturnToOrigin`) as string) as lastReturnToOrigin_max,
+        
+        count(`lastPickup`) as lastPickup_total,
+        
+        count(distinct(`lastPickup`)) as lastPickup_distinct,
+        
+        countif(`lastPickup` is not null) as lastPickup_not_null,
+        
+        cast(min(`lastPickup`) as string) as lastPickup_min,
+        
+        cast(min(`lastPickup`) as string) as lastPickup_max,
+        
+        count(`lastInCollection`) as lastInCollection_total,
+        
+        count(distinct(`lastInCollection`)) as lastInCollection_distinct,
+        
+        countif(`lastInCollection` is not null) as lastInCollection_not_null,
+        
+        cast(min(`lastInCollection`) as string) as lastInCollection_min,
+        
+        cast(min(`lastInCollection`) as string) as lastInCollection_max,
+        
+        count(`lastBacklog`) as lastBacklog_total,
+        
+        count(distinct(`lastBacklog`)) as lastBacklog_distinct,
+        
+        countif(`lastBacklog` is not null) as lastBacklog_not_null,
+        
+        cast(min(`lastBacklog`) as string) as lastBacklog_min,
+        
+        cast(min(`lastBacklog`) as string) as lastBacklog_max,
+        
+        count(`digitizationDate`) as digitizationDate_total,
+        
+        count(distinct(`digitizationDate`)) as digitizationDate_distinct,
+        
+        countif(`digitizationDate` is not null) as digitizationDate_not_null,
+        
+        cast(min(`digitizationDate`) as string) as digitizationDate_min,
+        
+        cast(min(`digitizationDate`) as string) as digitizationDate_max,
+        
+        count(`deliveryEvidences`) as deliveryEvidences_total,
+        
+        count(distinct(`deliveryEvidences`)) as deliveryEvidences_distinct,
+        
+        countif(`deliveryEvidences` is not null) as deliveryEvidences_not_null,
+        
+        cast(min(`deliveryEvidences`) as string) as deliveryEvidences_min,
+        
+        cast(min(`deliveryEvidences`) as string) as deliveryEvidences_max,
+        
+        count(`exceptionEvidences`) as exceptionEvidences_total,
+        
+        count(distinct(`exceptionEvidences`)) as exceptionEvidences_distinct,
+        
+        countif(`exceptionEvidences` is not null) as exceptionEvidences_not_null,
+        
+        cast(min(`exceptionEvidences`) as string) as exceptionEvidences_min,
+        
+        cast(min(`exceptionEvidences`) as string) as exceptionEvidences_max,
+        
+        count(`lastNovelty`) as lastNovelty_total,
+        
+        count(distinct(`lastNovelty`)) as lastNovelty_distinct,
+        
+        countif(`lastNovelty` is not null) as lastNovelty_not_null,
+        
+        cast(min(`lastNovelty`) as string) as lastNovelty_min,
+        
+        cast(min(`lastNovelty`) as string) as lastNovelty_max,
+        
+        count(`lastNoveltyId`) as lastNoveltyId_total,
+        
+        count(distinct(`lastNoveltyId`)) as lastNoveltyId_distinct,
+        
+        countif(`lastNoveltyId` is not null) as lastNoveltyId_not_null,
+        
+        cast(min(`lastNoveltyId`) as string) as lastNoveltyId_min,
+        
+        cast(min(`lastNoveltyId`) as string) as lastNoveltyId_max,
+        
+        count(`lastNoveltyName`) as lastNoveltyName_total,
+        
+        count(distinct(`lastNoveltyName`)) as lastNoveltyName_distinct,
+        
+        countif(`lastNoveltyName` is not null) as lastNoveltyName_not_null,
+        
+        cast(min(`lastNoveltyName`) as string) as lastNoveltyName_min,
+        
+        cast(min(`lastNoveltyName`) as string) as lastNoveltyName_max,
+        
+        count(`novelties`) as novelties_total,
+        
+        count(distinct(`novelties`)) as novelties_distinct,
+        
+        countif(`novelties` is not null) as novelties_not_null,
+        
+        cast(min(`novelties`) as string) as novelties_min,
+        
+        cast(min(`novelties`) as string) as novelties_max,
+        
+        count(`messengerId`) as messengerId_total,
+        
+        count(distinct(`messengerId`)) as messengerId_distinct,
+        
+        countif(`messengerId` is not null) as messengerId_not_null,
+        
+        cast(min(`messengerId`) as string) as messengerId_min,
+        
+        cast(min(`messengerId`) as string) as messengerId_max,
+        
+        count(`messengerName`) as messengerName_total,
+        
+        count(distinct(`messengerName`)) as messengerName_distinct,
+        
+        countif(`messengerName` is not null) as messengerName_not_null,
+        
+        cast(min(`messengerName`) as string) as messengerName_min,
+        
+        cast(min(`messengerName`) as string) as messengerName_max,
+        
+        count(`deliverySheetId`) as deliverySheetId_total,
+        
+        count(distinct(`deliverySheetId`)) as deliverySheetId_distinct,
+        
+        countif(`deliverySheetId` is not null) as deliverySheetId_not_null,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_min,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_max,
+        
+        count(`collectionSheetId`) as collectionSheetId_total,
+        
+        count(distinct(`collectionSheetId`)) as collectionSheetId_distinct,
+        
+        countif(`collectionSheetId` is not null) as collectionSheetId_not_null,
+        
+        cast(min(`collectionSheetId`) as string) as collectionSheetId_min,
+        
+        cast(min(`collectionSheetId`) as string) as collectionSheetId_max,
+        
+        count(`manifestId`) as manifestId_total,
+        
+        count(distinct(`manifestId`)) as manifestId_distinct,
+        
+        countif(`manifestId` is not null) as manifestId_not_null,
+        
+        cast(min(`manifestId`) as string) as manifestId_min,
+        
+        cast(min(`manifestId`) as string) as manifestId_max,
+        
+        count(`manifestNumber`) as manifestNumber_total,
+        
+        count(distinct(`manifestNumber`)) as manifestNumber_distinct,
+        
+        countif(`manifestNumber` is not null) as manifestNumber_not_null,
+        
+        cast(min(`manifestNumber`) as string) as manifestNumber_min,
+        
+        cast(min(`manifestNumber`) as string) as manifestNumber_max,
+        
+        count(`enteringUser`) as enteringUser_total,
+        
+        count(distinct(`enteringUser`)) as enteringUser_distinct,
+        
+        countif(`enteringUser` is not null) as enteringUser_not_null,
+        
+        cast(min(`enteringUser`) as string) as enteringUser_min,
+        
+        cast(min(`enteringUser`) as string) as enteringUser_max,
+        
+        count(`shipmentManifestId`) as shipmentManifestId_total,
+        
+        count(distinct(`shipmentManifestId`)) as shipmentManifestId_distinct,
+        
+        countif(`shipmentManifestId` is not null) as shipmentManifestId_not_null,
+        
+        cast(min(`shipmentManifestId`) as string) as shipmentManifestId_min,
+        
+        cast(min(`shipmentManifestId`) as string) as shipmentManifestId_max,
+        
+        count(`shipmentDeliveryId`) as shipmentDeliveryId_total,
+        
+        count(distinct(`shipmentDeliveryId`)) as shipmentDeliveryId_distinct,
+        
+        countif(`shipmentDeliveryId` is not null) as shipmentDeliveryId_not_null,
+        
+        cast(min(`shipmentDeliveryId`) as string) as shipmentDeliveryId_min,
+        
+        cast(min(`shipmentDeliveryId`) as string) as shipmentDeliveryId_max,
+        
+        count(`loadingUser`) as loadingUser_total,
+        
+        count(distinct(`loadingUser`)) as loadingUser_distinct,
+        
+        countif(`loadingUser` is not null) as loadingUser_not_null,
+        
+        cast(min(`loadingUser`) as string) as loadingUser_min,
+        
+        cast(min(`loadingUser`) as string) as loadingUser_max,
+        
+        count(`dynamic`) as dynamic_total,
+        
+        count(distinct(`dynamic`)) as dynamic_distinct,
+        
+        countif(`dynamic` is not null) as dynamic_not_null,
+        
+        cast(min(`dynamic`) as string) as dynamic_min,
+        
+        cast(min(`dynamic`) as string) as dynamic_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`destinationOfficeId`) as destinationOfficeId_total,
+        
+        count(distinct(`destinationOfficeId`)) as destinationOfficeId_distinct,
+        
+        countif(`destinationOfficeId` is not null) as destinationOfficeId_not_null,
+        
+        cast(min(`destinationOfficeId`) as string) as destinationOfficeId_min,
+        
+        cast(min(`destinationOfficeId`) as string) as destinationOfficeId_max,
+        
+        count(`destinationOfficeName`) as destinationOfficeName_total,
+        
+        count(distinct(`destinationOfficeName`)) as destinationOfficeName_distinct,
+        
+        countif(`destinationOfficeName` is not null) as destinationOfficeName_not_null,
+        
+        cast(min(`destinationOfficeName`) as string) as destinationOfficeName_min,
+        
+        cast(min(`destinationOfficeName`) as string) as destinationOfficeName_max,
+        
+        count(`originOfficeId`) as originOfficeId_total,
+        
+        count(distinct(`originOfficeId`)) as originOfficeId_distinct,
+        
+        countif(`originOfficeId` is not null) as originOfficeId_not_null,
+        
+        cast(min(`originOfficeId`) as string) as originOfficeId_min,
+        
+        cast(min(`originOfficeId`) as string) as originOfficeId_max,
+        
+        count(`originOfficeName`) as originOfficeName_total,
+        
+        count(distinct(`originOfficeName`)) as originOfficeName_distinct,
+        
+        countif(`originOfficeName` is not null) as originOfficeName_not_null,
+        
+        cast(min(`originOfficeName`) as string) as originOfficeName_min,
+        
+        cast(min(`originOfficeName`) as string) as originOfficeName_max,
+        
+        count(`destinationPopulationId`) as destinationPopulationId_total,
+        
+        count(distinct(`destinationPopulationId`)) as destinationPopulationId_distinct,
+        
+        countif(`destinationPopulationId` is not null) as destinationPopulationId_not_null,
+        
+        cast(min(`destinationPopulationId`) as string) as destinationPopulationId_min,
+        
+        cast(min(`destinationPopulationId`) as string) as destinationPopulationId_max,
+        
+        count(`destinationPopulationCode`) as destinationPopulationCode_total,
+        
+        count(distinct(`destinationPopulationCode`)) as destinationPopulationCode_distinct,
+        
+        countif(`destinationPopulationCode` is not null) as destinationPopulationCode_not_null,
+        
+        cast(min(`destinationPopulationCode`) as string) as destinationPopulationCode_min,
+        
+        cast(min(`destinationPopulationCode`) as string) as destinationPopulationCode_max,
+        
+        count(`destinationPopulationName`) as destinationPopulationName_total,
+        
+        count(distinct(`destinationPopulationName`)) as destinationPopulationName_distinct,
+        
+        countif(`destinationPopulationName` is not null) as destinationPopulationName_not_null,
+        
+        cast(min(`destinationPopulationName`) as string) as destinationPopulationName_min,
+        
+        cast(min(`destinationPopulationName`) as string) as destinationPopulationName_max,
+        
+        count(`originCountryStateId`) as originCountryStateId_total,
+        
+        count(distinct(`originCountryStateId`)) as originCountryStateId_distinct,
+        
+        countif(`originCountryStateId` is not null) as originCountryStateId_not_null,
+        
+        cast(min(`originCountryStateId`) as string) as originCountryStateId_min,
+        
+        cast(min(`originCountryStateId`) as string) as originCountryStateId_max,
+        
+        count(`originCountryStateName`) as originCountryStateName_total,
+        
+        count(distinct(`originCountryStateName`)) as originCountryStateName_distinct,
+        
+        countif(`originCountryStateName` is not null) as originCountryStateName_not_null,
+        
+        cast(min(`originCountryStateName`) as string) as originCountryStateName_min,
+        
+        cast(min(`originCountryStateName`) as string) as originCountryStateName_max,
+        
+        count(`destinationCountryStateId`) as destinationCountryStateId_total,
+        
+        count(distinct(`destinationCountryStateId`)) as destinationCountryStateId_distinct,
+        
+        countif(`destinationCountryStateId` is not null) as destinationCountryStateId_not_null,
+        
+        cast(min(`destinationCountryStateId`) as string) as destinationCountryStateId_min,
+        
+        cast(min(`destinationCountryStateId`) as string) as destinationCountryStateId_max,
+        
+        count(`destinationCountryStateName`) as destinationCountryStateName_total,
+        
+        count(distinct(`destinationCountryStateName`)) as destinationCountryStateName_distinct,
+        
+        countif(`destinationCountryStateName` is not null) as destinationCountryStateName_not_null,
+        
+        cast(min(`destinationCountryStateName`) as string) as destinationCountryStateName_min,
+        
+        cast(min(`destinationCountryStateName`) as string) as destinationCountryStateName_max,
+        
+        count(`senderName`) as senderName_total,
+        
+        count(distinct(`senderName`)) as senderName_distinct,
+        
+        countif(`senderName` is not null) as senderName_not_null,
+        
+        cast(min(`senderName`) as string) as senderName_min,
+        
+        cast(min(`senderName`) as string) as senderName_max,
+        
+        count(`recipientName`) as recipientName_total,
+        
+        count(distinct(`recipientName`)) as recipientName_distinct,
+        
+        countif(`recipientName` is not null) as recipientName_not_null,
+        
+        cast(min(`recipientName`) as string) as recipientName_min,
+        
+        cast(min(`recipientName`) as string) as recipientName_max,
+        
+        count(`senderDocument`) as senderDocument_total,
+        
+        count(distinct(`senderDocument`)) as senderDocument_distinct,
+        
+        countif(`senderDocument` is not null) as senderDocument_not_null,
+        
+        cast(min(`senderDocument`) as string) as senderDocument_min,
+        
+        cast(min(`senderDocument`) as string) as senderDocument_max,
+        
+        count(`recipientDocument`) as recipientDocument_total,
+        
+        count(distinct(`recipientDocument`)) as recipientDocument_distinct,
+        
+        countif(`recipientDocument` is not null) as recipientDocument_not_null,
+        
+        cast(min(`recipientDocument`) as string) as recipientDocument_min,
+        
+        cast(min(`recipientDocument`) as string) as recipientDocument_max,
+        
+        count(`senderAddress`) as senderAddress_total,
+        
+        count(distinct(`senderAddress`)) as senderAddress_distinct,
+        
+        countif(`senderAddress` is not null) as senderAddress_not_null,
+        
+        cast(min(`senderAddress`) as string) as senderAddress_min,
+        
+        cast(min(`senderAddress`) as string) as senderAddress_max,
+        
+        count(`recipientAddress`) as recipientAddress_total,
+        
+        count(distinct(`recipientAddress`)) as recipientAddress_distinct,
+        
+        countif(`recipientAddress` is not null) as recipientAddress_not_null,
+        
+        cast(min(`recipientAddress`) as string) as recipientAddress_min,
+        
+        cast(min(`recipientAddress`) as string) as recipientAddress_max,
+        
+        count(`senderAddressComplement`) as senderAddressComplement_total,
+        
+        count(distinct(`senderAddressComplement`)) as senderAddressComplement_distinct,
+        
+        countif(`senderAddressComplement` is not null) as senderAddressComplement_not_null,
+        
+        cast(min(`senderAddressComplement`) as string) as senderAddressComplement_min,
+        
+        cast(min(`senderAddressComplement`) as string) as senderAddressComplement_max,
+        
+        count(`recipientAddressComplement`) as recipientAddressComplement_total,
+        
+        count(distinct(`recipientAddressComplement`)) as recipientAddressComplement_distinct,
+        
+        countif(`recipientAddressComplement` is not null) as recipientAddressComplement_not_null,
+        
+        cast(min(`recipientAddressComplement`) as string) as recipientAddressComplement_min,
+        
+        cast(min(`recipientAddressComplement`) as string) as recipientAddressComplement_max,
+        
+        count(`senderPhone`) as senderPhone_total,
+        
+        count(distinct(`senderPhone`)) as senderPhone_distinct,
+        
+        countif(`senderPhone` is not null) as senderPhone_not_null,
+        
+        cast(min(`senderPhone`) as string) as senderPhone_min,
+        
+        cast(min(`senderPhone`) as string) as senderPhone_max,
+        
+        count(`recipientPhone`) as recipientPhone_total,
+        
+        count(distinct(`recipientPhone`)) as recipientPhone_distinct,
+        
+        countif(`recipientPhone` is not null) as recipientPhone_not_null,
+        
+        cast(min(`recipientPhone`) as string) as recipientPhone_min,
+        
+        cast(min(`recipientPhone`) as string) as recipientPhone_max,
+        
+        count(`shipmentStatusId`) as shipmentStatusId_total,
+        
+        count(distinct(`shipmentStatusId`)) as shipmentStatusId_distinct,
+        
+        countif(`shipmentStatusId` is not null) as shipmentStatusId_not_null,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_min,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_max,
+        
+        count(`shipmentStatusName`) as shipmentStatusName_total,
+        
+        count(distinct(`shipmentStatusName`)) as shipmentStatusName_distinct,
+        
+        countif(`shipmentStatusName` is not null) as shipmentStatusName_not_null,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_min,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_max,
+        
+        count(`productId`) as productId_total,
+        
+        count(distinct(`productId`)) as productId_distinct,
+        
+        countif(`productId` is not null) as productId_not_null,
+        
+        cast(min(`productId`) as string) as productId_min,
+        
+        cast(min(`productId`) as string) as productId_max,
+        
+        count(`productName`) as productName_total,
+        
+        count(distinct(`productName`)) as productName_distinct,
+        
+        countif(`productName` is not null) as productName_not_null,
+        
+        cast(min(`productName`) as string) as productName_min,
+        
+        cast(min(`productName`) as string) as productName_max,
+        
+        count(`contentDescription`) as contentDescription_total,
+        
+        count(distinct(`contentDescription`)) as contentDescription_distinct,
+        
+        countif(`contentDescription` is not null) as contentDescription_not_null,
+        
+        cast(min(`contentDescription`) as string) as contentDescription_min,
+        
+        cast(min(`contentDescription`) as string) as contentDescription_max,
+        
+        count(`shipmentFileUrl`) as shipmentFileUrl_total,
+        
+        count(distinct(`shipmentFileUrl`)) as shipmentFileUrl_distinct,
+        
+        countif(`shipmentFileUrl` is not null) as shipmentFileUrl_not_null,
+        
+        cast(min(`shipmentFileUrl`) as string) as shipmentFileUrl_min,
+        
+        cast(min(`shipmentFileUrl`) as string) as shipmentFileUrl_max,
+        
+        count(`customerId`) as customerId_total,
+        
+        count(distinct(`customerId`)) as customerId_distinct,
+        
+        countif(`customerId` is not null) as customerId_not_null,
+        
+        cast(min(`customerId`) as string) as customerId_min,
+        
+        cast(min(`customerId`) as string) as customerId_max,
+        
+        count(`isCancelled`) as isCancelled_total,
+        
+        count(distinct(`isCancelled`)) as isCancelled_distinct,
+        
+        countif(`isCancelled` is not null) as isCancelled_not_null,
+        
+        cast(min(`isCancelled`) as string) as isCancelled_min,
+        
+        cast(min(`isCancelled`) as string) as isCancelled_max,
+        
+        count(`numberRegistrationDate`) as numberRegistrationDate_total,
+        
+        count(distinct(`numberRegistrationDate`)) as numberRegistrationDate_distinct,
+        
+        countif(`numberRegistrationDate` is not null) as numberRegistrationDate_not_null,
+        
+        cast(min(`numberRegistrationDate`) as string) as numberRegistrationDate_min,
+        
+        cast(min(`numberRegistrationDate`) as string) as numberRegistrationDate_max,
+        
+        count(`externalNumber`) as externalNumber_total,
+        
+        count(distinct(`externalNumber`)) as externalNumber_distinct,
+        
+        countif(`externalNumber` is not null) as externalNumber_not_null,
+        
+        cast(min(`externalNumber`) as string) as externalNumber_min,
+        
+        cast(min(`externalNumber`) as string) as externalNumber_max,
+        
+        count(`totalPieces`) as totalPieces_total,
+        
+        count(distinct(`totalPieces`)) as totalPieces_distinct,
+        
+        countif(`totalPieces` is not null) as totalPieces_not_null,
+        
+        cast(min(`totalPieces`) as string) as totalPieces_min,
+        
+        cast(min(`totalPieces`) as string) as totalPieces_max,
+        
+        count(`liquidWeight`) as liquidWeight_total,
+        
+        count(distinct(`liquidWeight`)) as liquidWeight_distinct,
+        
+        countif(`liquidWeight` is not null) as liquidWeight_not_null,
+        
+        cast(min(`liquidWeight`) as string) as liquidWeight_min,
+        
+        cast(min(`liquidWeight`) as string) as liquidWeight_max,
+        
+        count(`measuredWeight`) as measuredWeight_total,
+        
+        count(distinct(`measuredWeight`)) as measuredWeight_distinct,
+        
+        countif(`measuredWeight` is not null) as measuredWeight_not_null,
+        
+        cast(min(`measuredWeight`) as string) as measuredWeight_min,
+        
+        cast(min(`measuredWeight`) as string) as measuredWeight_max,
+        
+        count(`volumetricWeight`) as volumetricWeight_total,
+        
+        count(distinct(`volumetricWeight`)) as volumetricWeight_distinct,
+        
+        countif(`volumetricWeight` is not null) as volumetricWeight_not_null,
+        
+        cast(min(`volumetricWeight`) as string) as volumetricWeight_min,
+        
+        cast(min(`volumetricWeight`) as string) as volumetricWeight_max,
+        
+        count(`totalValue`) as totalValue_total,
+        
+        count(distinct(`totalValue`)) as totalValue_distinct,
+        
+        countif(`totalValue` is not null) as totalValue_not_null,
+        
+        cast(min(`totalValue`) as string) as totalValue_min,
+        
+        cast(min(`totalValue`) as string) as totalValue_max,
+        
+        count(`insuranceValue`) as insuranceValue_total,
+        
+        count(distinct(`insuranceValue`)) as insuranceValue_distinct,
+        
+        countif(`insuranceValue` is not null) as insuranceValue_not_null,
+        
+        cast(min(`insuranceValue`) as string) as insuranceValue_min,
+        
+        cast(min(`insuranceValue`) as string) as insuranceValue_max,
+        
+        count(`freightValue`) as freightValue_total,
+        
+        count(distinct(`freightValue`)) as freightValue_distinct,
+        
+        countif(`freightValue` is not null) as freightValue_not_null,
+        
+        cast(min(`freightValue`) as string) as freightValue_min,
+        
+        cast(min(`freightValue`) as string) as freightValue_max,
+        
+        count(`estimatedDeliveryDate`) as estimatedDeliveryDate_total,
+        
+        count(distinct(`estimatedDeliveryDate`)) as estimatedDeliveryDate_distinct,
+        
+        countif(`estimatedDeliveryDate` is not null) as estimatedDeliveryDate_not_null,
+        
+        cast(min(`estimatedDeliveryDate`) as string) as estimatedDeliveryDate_min,
+        
+        cast(min(`estimatedDeliveryDate`) as string) as estimatedDeliveryDate_max,
+        
+        count(`carrierId`) as carrierId_total,
+        
+        count(distinct(`carrierId`)) as carrierId_distinct,
+        
+        countif(`carrierId` is not null) as carrierId_not_null,
+        
+        cast(min(`carrierId`) as string) as carrierId_min,
+        
+        cast(min(`carrierId`) as string) as carrierId_max,
+        
+        count(`carrierName`) as carrierName_total,
+        
+        count(distinct(`carrierName`)) as carrierName_distinct,
+        
+        countif(`carrierName` is not null) as carrierName_not_null,
+        
+        cast(min(`carrierName`) as string) as carrierName_min,
+        
+        cast(min(`carrierName`) as string) as carrierName_max,
+        
+        count(`isExternalOperation`) as isExternalOperation_total,
+        
+        count(distinct(`isExternalOperation`)) as isExternalOperation_distinct,
+        
+        countif(`isExternalOperation` is not null) as isExternalOperation_not_null,
+        
+        cast(min(`isExternalOperation`) as string) as isExternalOperation_min,
+        
+        cast(min(`isExternalOperation`) as string) as isExternalOperation_max,
+        
+        count(`lastOfficeId`) as lastOfficeId_total,
+        
+        count(distinct(`lastOfficeId`)) as lastOfficeId_distinct,
+        
+        countif(`lastOfficeId` is not null) as lastOfficeId_not_null,
+        
+        cast(min(`lastOfficeId`) as string) as lastOfficeId_min,
+        
+        cast(min(`lastOfficeId`) as string) as lastOfficeId_max,
+        
+        count(`lastOfficeName`) as lastOfficeName_total,
+        
+        count(distinct(`lastOfficeName`)) as lastOfficeName_distinct,
+        
+        countif(`lastOfficeName` is not null) as lastOfficeName_not_null,
+        
+        cast(min(`lastOfficeName`) as string) as lastOfficeName_min,
+        
+        cast(min(`lastOfficeName`) as string) as lastOfficeName_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envioconsolidado_env    
+    ########################
+2023-09-11 13:55:19,279 - logger - INFO - Query Execution Ends
+2023-09-11 13:55:19,280 - logger - INFO - Total Time Taken to execute query is 18.501 sec
+2023-09-11 13:55:19,369 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviodinamico_env  
+     SELECT 
+        count(`dynamicShipmentId`) as dynamicShipmentId_total,
+        
+        count(distinct(`dynamicShipmentId`)) as dynamicShipmentId_distinct,
+        
+        countif(`dynamicShipmentId` is not null) as dynamicShipmentId_not_null,
+        
+        cast(min(`dynamicShipmentId`) as string) as dynamicShipmentId_min,
+        
+        cast(min(`dynamicShipmentId`) as string) as dynamicShipmentId_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`dynamicFieldOne`) as dynamicFieldOne_total,
+        
+        count(distinct(`dynamicFieldOne`)) as dynamicFieldOne_distinct,
+        
+        countif(`dynamicFieldOne` is not null) as dynamicFieldOne_not_null,
+        
+        cast(min(`dynamicFieldOne`) as string) as dynamicFieldOne_min,
+        
+        cast(min(`dynamicFieldOne`) as string) as dynamicFieldOne_max,
+        
+        count(`dynamicFieldTwo`) as dynamicFieldTwo_total,
+        
+        count(distinct(`dynamicFieldTwo`)) as dynamicFieldTwo_distinct,
+        
+        countif(`dynamicFieldTwo` is not null) as dynamicFieldTwo_not_null,
+        
+        cast(min(`dynamicFieldTwo`) as string) as dynamicFieldTwo_min,
+        
+        cast(min(`dynamicFieldTwo`) as string) as dynamicFieldTwo_max,
+        
+        count(`dynamicFieldThree`) as dynamicFieldThree_total,
+        
+        count(distinct(`dynamicFieldThree`)) as dynamicFieldThree_distinct,
+        
+        countif(`dynamicFieldThree` is not null) as dynamicFieldThree_not_null,
+        
+        cast(min(`dynamicFieldThree`) as string) as dynamicFieldThree_min,
+        
+        cast(min(`dynamicFieldThree`) as string) as dynamicFieldThree_max,
+        
+        count(`keyOne`) as keyOne_total,
+        
+        count(distinct(`keyOne`)) as keyOne_distinct,
+        
+        countif(`keyOne` is not null) as keyOne_not_null,
+        
+        cast(min(`keyOne`) as string) as keyOne_min,
+        
+        cast(min(`keyOne`) as string) as keyOne_max,
+        
+        count(`valueOne`) as valueOne_total,
+        
+        count(distinct(`valueOne`)) as valueOne_distinct,
+        
+        countif(`valueOne` is not null) as valueOne_not_null,
+        
+        cast(min(`valueOne`) as string) as valueOne_min,
+        
+        cast(min(`valueOne`) as string) as valueOne_max,
+        
+        count(`keyTwo`) as keyTwo_total,
+        
+        count(distinct(`keyTwo`)) as keyTwo_distinct,
+        
+        countif(`keyTwo` is not null) as keyTwo_not_null,
+        
+        cast(min(`keyTwo`) as string) as keyTwo_min,
+        
+        cast(min(`keyTwo`) as string) as keyTwo_max,
+        
+        count(`valueTwo`) as valueTwo_total,
+        
+        count(distinct(`valueTwo`)) as valueTwo_distinct,
+        
+        countif(`valueTwo` is not null) as valueTwo_not_null,
+        
+        cast(min(`valueTwo`) as string) as valueTwo_min,
+        
+        cast(min(`valueTwo`) as string) as valueTwo_max,
+        
+        count(`keyThree`) as keyThree_total,
+        
+        count(distinct(`keyThree`)) as keyThree_distinct,
+        
+        countif(`keyThree` is not null) as keyThree_not_null,
+        
+        cast(min(`keyThree`) as string) as keyThree_min,
+        
+        cast(min(`keyThree`) as string) as keyThree_max,
+        
+        count(`valueThree`) as valueThree_total,
+        
+        count(distinct(`valueThree`)) as valueThree_distinct,
+        
+        countif(`valueThree` is not null) as valueThree_not_null,
+        
+        cast(min(`valueThree`) as string) as valueThree_min,
+        
+        cast(min(`valueThree`) as string) as valueThree_max,
+        
+        count(`creation`) as creation_total,
+        
+        count(distinct(`creation`)) as creation_distinct,
+        
+        countif(`creation` is not null) as creation_not_null,
+        
+        cast(min(`creation`) as string) as creation_min,
+        
+        cast(min(`creation`) as string) as creation_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviodinamico_env    
+    ########################
+2023-09-11 13:55:35,088 - logger - INFO - Query Execution Ends
+2023-09-11 13:55:35,088 - logger - INFO - Total Time Taken to execute query is 15.719 sec
+2023-09-11 13:55:35,173 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviolog_env  
+     SELECT 
+        count(`shipmentLogId`) as shipmentLogId_total,
+        
+        count(distinct(`shipmentLogId`)) as shipmentLogId_distinct,
+        
+        countif(`shipmentLogId` is not null) as shipmentLogId_not_null,
+        
+        cast(min(`shipmentLogId`) as string) as shipmentLogId_min,
+        
+        cast(min(`shipmentLogId`) as string) as shipmentLogId_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`shipmentNumber`) as shipmentNumber_total,
+        
+        count(distinct(`shipmentNumber`)) as shipmentNumber_distinct,
+        
+        countif(`shipmentNumber` is not null) as shipmentNumber_not_null,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_min,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_max,
+        
+        count(`shipmentStatusId`) as shipmentStatusId_total,
+        
+        count(distinct(`shipmentStatusId`)) as shipmentStatusId_distinct,
+        
+        countif(`shipmentStatusId` is not null) as shipmentStatusId_not_null,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_min,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_max,
+        
+        count(`shipmentStatusName`) as shipmentStatusName_total,
+        
+        count(distinct(`shipmentStatusName`)) as shipmentStatusName_distinct,
+        
+        countif(`shipmentStatusName` is not null) as shipmentStatusName_not_null,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_min,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_max,
+        
+        count(`externalId`) as externalId_total,
+        
+        count(distinct(`externalId`)) as externalId_distinct,
+        
+        countif(`externalId` is not null) as externalId_not_null,
+        
+        cast(min(`externalId`) as string) as externalId_min,
+        
+        cast(min(`externalId`) as string) as externalId_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`populationId`) as populationId_total,
+        
+        count(distinct(`populationId`)) as populationId_distinct,
+        
+        countif(`populationId` is not null) as populationId_not_null,
+        
+        cast(min(`populationId`) as string) as populationId_min,
+        
+        cast(min(`populationId`) as string) as populationId_max,
+        
+        count(`officeId`) as officeId_total,
+        
+        count(distinct(`officeId`)) as officeId_distinct,
+        
+        countif(`officeId` is not null) as officeId_not_null,
+        
+        cast(min(`officeId`) as string) as officeId_min,
+        
+        cast(min(`officeId`) as string) as officeId_max,
+        
+        count(`officeName`) as officeName_total,
+        
+        count(distinct(`officeName`)) as officeName_distinct,
+        
+        countif(`officeName` is not null) as officeName_not_null,
+        
+        cast(min(`officeName`) as string) as officeName_min,
+        
+        cast(min(`officeName`) as string) as officeName_max,
+        
+        count(`isPublic`) as isPublic_total,
+        
+        count(distinct(`isPublic`)) as isPublic_distinct,
+        
+        countif(`isPublic` is not null) as isPublic_not_null,
+        
+        cast(min(`isPublic`) as string) as isPublic_min,
+        
+        cast(min(`isPublic`) as string) as isPublic_max,
+        
+        count(`user`) as user_total,
+        
+        count(distinct(`user`)) as user_distinct,
+        
+        countif(`user` is not null) as user_not_null,
+        
+        cast(min(`user`) as string) as user_min,
+        
+        cast(min(`user`) as string) as user_max,
+        
+        count(`wasDeleted`) as wasDeleted_total,
+        
+        count(distinct(`wasDeleted`)) as wasDeleted_distinct,
+        
+        countif(`wasDeleted` is not null) as wasDeleted_not_null,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_min,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_max,
+        
+        count(`operationId`) as operationId_total,
+        
+        count(distinct(`operationId`)) as operationId_distinct,
+        
+        countif(`operationId` is not null) as operationId_not_null,
+        
+        cast(min(`operationId`) as string) as operationId_min,
+        
+        cast(min(`operationId`) as string) as operationId_max,
+        
+        count(`guid`) as guid_total,
+        
+        count(distinct(`guid`)) as guid_distinct,
+        
+        countif(`guid` is not null) as guid_not_null,
+        
+        cast(min(`guid`) as string) as guid_min,
+        
+        cast(min(`guid`) as string) as guid_max,
+        
+        count(`insertionDate`) as insertionDate_total,
+        
+        count(distinct(`insertionDate`)) as insertionDate_distinct,
+        
+        countif(`insertionDate` is not null) as insertionDate_not_null,
+        
+        cast(min(`insertionDate`) as string) as insertionDate_min,
+        
+        cast(min(`insertionDate`) as string) as insertionDate_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_enviolog_env    
+    ########################
+2023-09-11 13:55:55,305 - logger - INFO - Query Execution Ends
+2023-09-11 13:55:55,306 - logger - INFO - Total Time Taken to execute query is 20.13 sec
+2023-09-11 13:55:55,407 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envionovedadlog_env  
+     SELECT 
+        count(`shipmentNoveltyLogId`) as shipmentNoveltyLogId_total,
+        
+        count(distinct(`shipmentNoveltyLogId`)) as shipmentNoveltyLogId_distinct,
+        
+        countif(`shipmentNoveltyLogId` is not null) as shipmentNoveltyLogId_not_null,
+        
+        cast(min(`shipmentNoveltyLogId`) as string) as shipmentNoveltyLogId_min,
+        
+        cast(min(`shipmentNoveltyLogId`) as string) as shipmentNoveltyLogId_max,
+        
+        count(`shipmentNoveltyId`) as shipmentNoveltyId_total,
+        
+        count(distinct(`shipmentNoveltyId`)) as shipmentNoveltyId_distinct,
+        
+        countif(`shipmentNoveltyId` is not null) as shipmentNoveltyId_not_null,
+        
+        cast(min(`shipmentNoveltyId`) as string) as shipmentNoveltyId_min,
+        
+        cast(min(`shipmentNoveltyId`) as string) as shipmentNoveltyId_max,
+        
+        count(`shipmentNoveltyName`) as shipmentNoveltyName_total,
+        
+        count(distinct(`shipmentNoveltyName`)) as shipmentNoveltyName_distinct,
+        
+        countif(`shipmentNoveltyName` is not null) as shipmentNoveltyName_not_null,
+        
+        cast(min(`shipmentNoveltyName`) as string) as shipmentNoveltyName_min,
+        
+        cast(min(`shipmentNoveltyName`) as string) as shipmentNoveltyName_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`shipmentNumber`) as shipmentNumber_total,
+        
+        count(distinct(`shipmentNumber`)) as shipmentNumber_distinct,
+        
+        countif(`shipmentNumber` is not null) as shipmentNumber_not_null,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_min,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`visible`) as visible_total,
+        
+        count(distinct(`visible`)) as visible_distinct,
+        
+        countif(`visible` is not null) as visible_not_null,
+        
+        cast(min(`visible`) as string) as visible_min,
+        
+        cast(min(`visible`) as string) as visible_max,
+        
+        count(`crc`) as crc_total,
+        
+        count(distinct(`crc`)) as crc_distinct,
+        
+        countif(`crc` is not null) as crc_not_null,
+        
+        cast(min(`crc`) as string) as crc_min,
+        
+        cast(min(`crc`) as string) as crc_max,
+        
+        count(`shipmentStatusId`) as shipmentStatusId_total,
+        
+        count(distinct(`shipmentStatusId`)) as shipmentStatusId_distinct,
+        
+        countif(`shipmentStatusId` is not null) as shipmentStatusId_not_null,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_min,
+        
+        cast(min(`shipmentStatusId`) as string) as shipmentStatusId_max,
+        
+        count(`shipmentStatusName`) as shipmentStatusName_total,
+        
+        count(distinct(`shipmentStatusName`)) as shipmentStatusName_distinct,
+        
+        countif(`shipmentStatusName` is not null) as shipmentStatusName_not_null,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_min,
+        
+        cast(min(`shipmentStatusName`) as string) as shipmentStatusName_max,
+        
+        count(`noveltyStatusId`) as noveltyStatusId_total,
+        
+        count(distinct(`noveltyStatusId`)) as noveltyStatusId_distinct,
+        
+        countif(`noveltyStatusId` is not null) as noveltyStatusId_not_null,
+        
+        cast(min(`noveltyStatusId`) as string) as noveltyStatusId_min,
+        
+        cast(min(`noveltyStatusId`) as string) as noveltyStatusId_max,
+        
+        count(`noveltyStatusName`) as noveltyStatusName_total,
+        
+        count(distinct(`noveltyStatusName`)) as noveltyStatusName_distinct,
+        
+        countif(`noveltyStatusName` is not null) as noveltyStatusName_not_null,
+        
+        cast(min(`noveltyStatusName`) as string) as noveltyStatusName_min,
+        
+        cast(min(`noveltyStatusName`) as string) as noveltyStatusName_max,
+        
+        count(`observation`) as observation_total,
+        
+        count(distinct(`observation`)) as observation_distinct,
+        
+        countif(`observation` is not null) as observation_not_null,
+        
+        cast(min(`observation`) as string) as observation_min,
+        
+        cast(min(`observation`) as string) as observation_max,
+        
+        count(`userId`) as userId_total,
+        
+        count(distinct(`userId`)) as userId_distinct,
+        
+        countif(`userId` is not null) as userId_not_null,
+        
+        cast(min(`userId`) as string) as userId_min,
+        
+        cast(min(`userId`) as string) as userId_max,
+        
+        count(`userName`) as userName_total,
+        
+        count(distinct(`userName`)) as userName_distinct,
+        
+        countif(`userName` is not null) as userName_not_null,
+        
+        cast(min(`userName`) as string) as userName_min,
+        
+        cast(min(`userName`) as string) as userName_max,
+        
+        count(`hasSolution`) as hasSolution_total,
+        
+        count(distinct(`hasSolution`)) as hasSolution_distinct,
+        
+        countif(`hasSolution` is not null) as hasSolution_not_null,
+        
+        cast(min(`hasSolution`) as string) as hasSolution_min,
+        
+        cast(min(`hasSolution`) as string) as hasSolution_max,
+        
+        count(`solution`) as solution_total,
+        
+        count(distinct(`solution`)) as solution_distinct,
+        
+        countif(`solution` is not null) as solution_not_null,
+        
+        cast(min(`solution`) as string) as solution_min,
+        
+        cast(min(`solution`) as string) as solution_max,
+        
+        count(`solutionTypeId`) as solutionTypeId_total,
+        
+        count(distinct(`solutionTypeId`)) as solutionTypeId_distinct,
+        
+        countif(`solutionTypeId` is not null) as solutionTypeId_not_null,
+        
+        cast(min(`solutionTypeId`) as string) as solutionTypeId_min,
+        
+        cast(min(`solutionTypeId`) as string) as solutionTypeId_max,
+        
+        count(`solutionTypeName`) as solutionTypeName_total,
+        
+        count(distinct(`solutionTypeName`)) as solutionTypeName_distinct,
+        
+        countif(`solutionTypeName` is not null) as solutionTypeName_not_null,
+        
+        cast(min(`solutionTypeName`) as string) as solutionTypeName_min,
+        
+        cast(min(`solutionTypeName`) as string) as solutionTypeName_max,
+        
+        count(`wasDeleted`) as wasDeleted_total,
+        
+        count(distinct(`wasDeleted`)) as wasDeleted_distinct,
+        
+        countif(`wasDeleted` is not null) as wasDeleted_not_null,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_min,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_max,
+        
+        count(`guid`) as guid_total,
+        
+        count(distinct(`guid`)) as guid_distinct,
+        
+        countif(`guid` is not null) as guid_not_null,
+        
+        cast(min(`guid`) as string) as guid_min,
+        
+        cast(min(`guid`) as string) as guid_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_envionovedadlog_env    
+    ########################
+2023-09-11 13:56:08,116 - logger - INFO - Query Execution Ends
+2023-09-11 13:56:08,117 - logger - INFO - Total Time Taken to execute query is 12.709 sec
+2023-09-11 13:56:08,219 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiesto_des  
+     SELECT 
+        count(`manifestId`) as manifestId_total,
+        
+        count(distinct(`manifestId`)) as manifestId_distinct,
+        
+        countif(`manifestId` is not null) as manifestId_not_null,
+        
+        cast(min(`manifestId`) as string) as manifestId_min,
+        
+        cast(min(`manifestId`) as string) as manifestId_max,
+        
+        count(`number`) as number_total,
+        
+        count(distinct(`number`)) as number_distinct,
+        
+        countif(`number` is not null) as number_not_null,
+        
+        cast(min(`number`) as string) as number_min,
+        
+        cast(min(`number`) as string) as number_max,
+        
+        count(`externalNumber`) as externalNumber_total,
+        
+        count(distinct(`externalNumber`)) as externalNumber_distinct,
+        
+        countif(`externalNumber` is not null) as externalNumber_not_null,
+        
+        cast(min(`externalNumber`) as string) as externalNumber_min,
+        
+        cast(min(`externalNumber`) as string) as externalNumber_max,
+        
+        count(`externalCode`) as externalCode_total,
+        
+        count(distinct(`externalCode`)) as externalCode_distinct,
+        
+        countif(`externalCode` is not null) as externalCode_not_null,
+        
+        cast(min(`externalCode`) as string) as externalCode_min,
+        
+        cast(min(`externalCode`) as string) as externalCode_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`routeId`) as routeId_total,
+        
+        count(distinct(`routeId`)) as routeId_distinct,
+        
+        countif(`routeId` is not null) as routeId_not_null,
+        
+        cast(min(`routeId`) as string) as routeId_min,
+        
+        cast(min(`routeId`) as string) as routeId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`creatingOfficeId`) as creatingOfficeId_total,
+        
+        count(distinct(`creatingOfficeId`)) as creatingOfficeId_distinct,
+        
+        countif(`creatingOfficeId` is not null) as creatingOfficeId_not_null,
+        
+        cast(min(`creatingOfficeId`) as string) as creatingOfficeId_min,
+        
+        cast(min(`creatingOfficeId`) as string) as creatingOfficeId_max,
+        
+        count(`creatingPopulationId`) as creatingPopulationId_total,
+        
+        count(distinct(`creatingPopulationId`)) as creatingPopulationId_distinct,
+        
+        countif(`creatingPopulationId` is not null) as creatingPopulationId_not_null,
+        
+        cast(min(`creatingPopulationId`) as string) as creatingPopulationId_min,
+        
+        cast(min(`creatingPopulationId`) as string) as creatingPopulationId_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`registrationDate`) as registrationDate_total,
+        
+        count(distinct(`registrationDate`)) as registrationDate_distinct,
+        
+        countif(`registrationDate` is not null) as registrationDate_not_null,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_min,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_max,
+        
+        count(`fulfillmentDate`) as fulfillmentDate_total,
+        
+        count(distinct(`fulfillmentDate`)) as fulfillmentDate_distinct,
+        
+        countif(`fulfillmentDate` is not null) as fulfillmentDate_not_null,
+        
+        cast(min(`fulfillmentDate`) as string) as fulfillmentDate_min,
+        
+        cast(min(`fulfillmentDate`) as string) as fulfillmentDate_max,
+        
+        count(`closureDate`) as closureDate_total,
+        
+        count(distinct(`closureDate`)) as closureDate_distinct,
+        
+        countif(`closureDate` is not null) as closureDate_not_null,
+        
+        cast(min(`closureDate`) as string) as closureDate_min,
+        
+        cast(min(`closureDate`) as string) as closureDate_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`carrierId`) as carrierId_total,
+        
+        count(distinct(`carrierId`)) as carrierId_distinct,
+        
+        countif(`carrierId` is not null) as carrierId_not_null,
+        
+        cast(min(`carrierId`) as string) as carrierId_min,
+        
+        cast(min(`carrierId`) as string) as carrierId_max,
+        
+        count(`vehicleId`) as vehicleId_total,
+        
+        count(distinct(`vehicleId`)) as vehicleId_distinct,
+        
+        countif(`vehicleId` is not null) as vehicleId_not_null,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_min,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_max,
+        
+        count(`driverId`) as driverId_total,
+        
+        count(distinct(`driverId`)) as driverId_distinct,
+        
+        countif(`driverId` is not null) as driverId_not_null,
+        
+        cast(min(`driverId`) as string) as driverId_min,
+        
+        cast(min(`driverId`) as string) as driverId_max,
+        
+        count(`secondDriverId`) as secondDriverId_total,
+        
+        count(distinct(`secondDriverId`)) as secondDriverId_distinct,
+        
+        countif(`secondDriverId` is not null) as secondDriverId_not_null,
+        
+        cast(min(`secondDriverId`) as string) as secondDriverId_min,
+        
+        cast(min(`secondDriverId`) as string) as secondDriverId_max,
+        
+        count(`user`) as user_total,
+        
+        count(distinct(`user`)) as user_distinct,
+        
+        countif(`user` is not null) as user_not_null,
+        
+        cast(min(`user`) as string) as user_min,
+        
+        cast(min(`user`) as string) as user_max,
+        
+        count(`manifestTypeId`) as manifestTypeId_total,
+        
+        count(distinct(`manifestTypeId`)) as manifestTypeId_distinct,
+        
+        countif(`manifestTypeId` is not null) as manifestTypeId_not_null,
+        
+        cast(min(`manifestTypeId`) as string) as manifestTypeId_min,
+        
+        cast(min(`manifestTypeId`) as string) as manifestTypeId_max,
+        
+        count(`isInternal`) as isInternal_total,
+        
+        count(distinct(`isInternal`)) as isInternal_distinct,
+        
+        countif(`isInternal` is not null) as isInternal_not_null,
+        
+        cast(min(`isInternal`) as string) as isInternal_min,
+        
+        cast(min(`isInternal`) as string) as isInternal_max,
+        
+        count(`isLocal`) as isLocal_total,
+        
+        count(distinct(`isLocal`)) as isLocal_distinct,
+        
+        countif(`isLocal` is not null) as isLocal_not_null,
+        
+        cast(min(`isLocal`) as string) as isLocal_min,
+        
+        cast(min(`isLocal`) as string) as isLocal_max,
+        
+        count(`isFulfilled`) as isFulfilled_total,
+        
+        count(distinct(`isFulfilled`)) as isFulfilled_distinct,
+        
+        countif(`isFulfilled` is not null) as isFulfilled_not_null,
+        
+        cast(min(`isFulfilled`) as string) as isFulfilled_min,
+        
+        cast(min(`isFulfilled`) as string) as isFulfilled_max,
+        
+        count(`observation`) as observation_total,
+        
+        count(distinct(`observation`)) as observation_distinct,
+        
+        countif(`observation` is not null) as observation_not_null,
+        
+        cast(min(`observation`) as string) as observation_min,
+        
+        cast(min(`observation`) as string) as observation_max,
+        
+        count(`externalNotes`) as externalNotes_total,
+        
+        count(distinct(`externalNotes`)) as externalNotes_distinct,
+        
+        countif(`externalNotes` is not null) as externalNotes_not_null,
+        
+        cast(min(`externalNotes`) as string) as externalNotes_min,
+        
+        cast(min(`externalNotes`) as string) as externalNotes_max,
+        
+        count(`destinationOfficeId`) as destinationOfficeId_total,
+        
+        count(distinct(`destinationOfficeId`)) as destinationOfficeId_distinct,
+        
+        countif(`destinationOfficeId` is not null) as destinationOfficeId_not_null,
+        
+        cast(min(`destinationOfficeId`) as string) as destinationOfficeId_min,
+        
+        cast(min(`destinationOfficeId`) as string) as destinationOfficeId_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiesto_des    
+    ########################
+2023-09-11 13:56:20,548 - logger - INFO - Query Execution Ends
+2023-09-11 13:56:20,549 - logger - INFO - Total Time Taken to execute query is 12.33 sec
+2023-09-11 13:56:20,649 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiestoenvio_des  
+     SELECT 
+        count(`shipmentManifestId`) as shipmentManifestId_total,
+        
+        count(distinct(`shipmentManifestId`)) as shipmentManifestId_distinct,
+        
+        countif(`shipmentManifestId` is not null) as shipmentManifestId_not_null,
+        
+        cast(min(`shipmentManifestId`) as string) as shipmentManifestId_min,
+        
+        cast(min(`shipmentManifestId`) as string) as shipmentManifestId_max,
+        
+        count(`manifestId`) as manifestId_total,
+        
+        count(distinct(`manifestId`)) as manifestId_distinct,
+        
+        countif(`manifestId` is not null) as manifestId_not_null,
+        
+        cast(min(`manifestId`) as string) as manifestId_min,
+        
+        cast(min(`manifestId`) as string) as manifestId_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`shipmentNumber`) as shipmentNumber_total,
+        
+        count(distinct(`shipmentNumber`)) as shipmentNumber_distinct,
+        
+        countif(`shipmentNumber` is not null) as shipmentNumber_not_null,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_min,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_max,
+        
+        count(`containerManifestId`) as containerManifestId_total,
+        
+        count(distinct(`containerManifestId`)) as containerManifestId_distinct,
+        
+        countif(`containerManifestId` is not null) as containerManifestId_not_null,
+        
+        cast(min(`containerManifestId`) as string) as containerManifestId_min,
+        
+        cast(min(`containerManifestId`) as string) as containerManifestId_max,
+        
+        count(`isUnloaded`) as isUnloaded_total,
+        
+        count(distinct(`isUnloaded`)) as isUnloaded_distinct,
+        
+        countif(`isUnloaded` is not null) as isUnloaded_not_null,
+        
+        cast(min(`isUnloaded`) as string) as isUnloaded_min,
+        
+        cast(min(`isUnloaded`) as string) as isUnloaded_max,
+        
+        count(`wasDeleted`) as wasDeleted_total,
+        
+        count(distinct(`wasDeleted`)) as wasDeleted_distinct,
+        
+        countif(`wasDeleted` is not null) as wasDeleted_not_null,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_min,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_max,
+        
+        count(`destinationPopulationId`) as destinationPopulationId_total,
+        
+        count(distinct(`destinationPopulationId`)) as destinationPopulationId_distinct,
+        
+        countif(`destinationPopulationId` is not null) as destinationPopulationId_not_null,
+        
+        cast(min(`destinationPopulationId`) as string) as destinationPopulationId_min,
+        
+        cast(min(`destinationPopulationId`) as string) as destinationPopulationId_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`loadingUser`) as loadingUser_total,
+        
+        count(distinct(`loadingUser`)) as loadingUser_distinct,
+        
+        countif(`loadingUser` is not null) as loadingUser_not_null,
+        
+        cast(min(`loadingUser`) as string) as loadingUser_min,
+        
+        cast(min(`loadingUser`) as string) as loadingUser_max,
+        
+        count(`unloadingUser`) as unloadingUser_total,
+        
+        count(distinct(`unloadingUser`)) as unloadingUser_distinct,
+        
+        countif(`unloadingUser` is not null) as unloadingUser_not_null,
+        
+        cast(min(`unloadingUser`) as string) as unloadingUser_min,
+        
+        cast(min(`unloadingUser`) as string) as unloadingUser_max,
+        
+        count(`loadingDate`) as loadingDate_total,
+        
+        count(distinct(`loadingDate`)) as loadingDate_distinct,
+        
+        countif(`loadingDate` is not null) as loadingDate_not_null,
+        
+        cast(min(`loadingDate`) as string) as loadingDate_min,
+        
+        cast(min(`loadingDate`) as string) as loadingDate_max,
+        
+        count(`unloadingDate`) as unloadingDate_total,
+        
+        count(distinct(`unloadingDate`)) as unloadingDate_distinct,
+        
+        countif(`unloadingDate` is not null) as unloadingDate_not_null,
+        
+        cast(min(`unloadingDate`) as string) as unloadingDate_min,
+        
+        cast(min(`unloadingDate`) as string) as unloadingDate_max,
+        
+        count(`serviceOrder`) as serviceOrder_total,
+        
+        count(distinct(`serviceOrder`)) as serviceOrder_distinct,
+        
+        countif(`serviceOrder` is not null) as serviceOrder_not_null,
+        
+        cast(min(`serviceOrder`) as string) as serviceOrder_min,
+        
+        cast(min(`serviceOrder`) as string) as serviceOrder_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_manifiestoenvio_des    
+    ########################
+2023-09-11 13:56:32,727 - logger - INFO - Query Execution Ends
+2023-09-11 13:56:32,727 - logger - INFO - Total Time Taken to execute query is 12.067 sec
+2023-09-11 13:56:32,825 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_novedadenvio_env  
+     SELECT 
+        count(`shipmentNoveltyId`) as shipmentNoveltyId_total,
+        
+        count(distinct(`shipmentNoveltyId`)) as shipmentNoveltyId_distinct,
+        
+        countif(`shipmentNoveltyId` is not null) as shipmentNoveltyId_not_null,
+        
+        cast(min(`shipmentNoveltyId`) as string) as shipmentNoveltyId_min,
+        
+        cast(min(`shipmentNoveltyId`) as string) as shipmentNoveltyId_max,
+        
+        count(`name`) as name_total,
+        
+        count(distinct(`name`)) as name_distinct,
+        
+        countif(`name` is not null) as name_not_null,
+        
+        cast(min(`name`) as string) as name_min,
+        
+        cast(min(`name`) as string) as name_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_novedadenvio_env    
+    ########################
+2023-09-11 13:56:44,185 - logger - INFO - Query Execution Ends
+2023-09-11 13:56:44,185 - logger - INFO - Total Time Taken to execute query is 11.359 sec
+2023-09-11 13:56:44,280 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_oficina_org  
+     SELECT 
+        count(`officeId`) as officeId_total,
+        
+        count(distinct(`officeId`)) as officeId_distinct,
+        
+        countif(`officeId` is not null) as officeId_not_null,
+        
+        cast(min(`officeId`) as string) as officeId_min,
+        
+        cast(min(`officeId`) as string) as officeId_max,
+        
+        count(`officeTypeId`) as officeTypeId_total,
+        
+        count(distinct(`officeTypeId`)) as officeTypeId_distinct,
+        
+        countif(`officeTypeId` is not null) as officeTypeId_not_null,
+        
+        cast(min(`officeTypeId`) as string) as officeTypeId_min,
+        
+        cast(min(`officeTypeId`) as string) as officeTypeId_max,
+        
+        count(`populationId`) as populationId_total,
+        
+        count(distinct(`populationId`)) as populationId_distinct,
+        
+        countif(`populationId` is not null) as populationId_not_null,
+        
+        cast(min(`populationId`) as string) as populationId_min,
+        
+        cast(min(`populationId`) as string) as populationId_max,
+        
+        count(`costCenter`) as costCenter_total,
+        
+        count(distinct(`costCenter`)) as costCenter_distinct,
+        
+        countif(`costCenter` is not null) as costCenter_not_null,
+        
+        cast(min(`costCenter`) as string) as costCenter_min,
+        
+        cast(min(`costCenter`) as string) as costCenter_max,
+        
+        count(`name`) as name_total,
+        
+        count(distinct(`name`)) as name_distinct,
+        
+        countif(`name` is not null) as name_not_null,
+        
+        cast(min(`name`) as string) as name_min,
+        
+        cast(min(`name`) as string) as name_max,
+        
+        count(`document`) as document_total,
+        
+        count(distinct(`document`)) as document_distinct,
+        
+        countif(`document` is not null) as document_not_null,
+        
+        cast(min(`document`) as string) as document_min,
+        
+        cast(min(`document`) as string) as document_max,
+        
+        count(`verificationDigit`) as verificationDigit_total,
+        
+        count(distinct(`verificationDigit`)) as verificationDigit_distinct,
+        
+        countif(`verificationDigit` is not null) as verificationDigit_not_null,
+        
+        cast(min(`verificationDigit`) as string) as verificationDigit_min,
+        
+        cast(min(`verificationDigit`) as string) as verificationDigit_max,
+        
+        count(`neighborhood`) as neighborhood_total,
+        
+        count(distinct(`neighborhood`)) as neighborhood_distinct,
+        
+        countif(`neighborhood` is not null) as neighborhood_not_null,
+        
+        cast(min(`neighborhood`) as string) as neighborhood_min,
+        
+        cast(min(`neighborhood`) as string) as neighborhood_max,
+        
+        count(`address`) as address_total,
+        
+        count(distinct(`address`)) as address_distinct,
+        
+        countif(`address` is not null) as address_not_null,
+        
+        cast(min(`address`) as string) as address_min,
+        
+        cast(min(`address`) as string) as address_max,
+        
+        count(`businessActivity`) as businessActivity_total,
+        
+        count(distinct(`businessActivity`)) as businessActivity_distinct,
+        
+        countif(`businessActivity` is not null) as businessActivity_not_null,
+        
+        cast(min(`businessActivity`) as string) as businessActivity_min,
+        
+        cast(min(`businessActivity`) as string) as businessActivity_max,
+        
+        count(`enabledBoxes`) as enabledBoxes_total,
+        
+        count(distinct(`enabledBoxes`)) as enabledBoxes_distinct,
+        
+        countif(`enabledBoxes` is not null) as enabledBoxes_not_null,
+        
+        cast(min(`enabledBoxes`) as string) as enabledBoxes_min,
+        
+        cast(min(`enabledBoxes`) as string) as enabledBoxes_max,
+        
+        count(`operatingSystem`) as operatingSystem_total,
+        
+        count(distinct(`operatingSystem`)) as operatingSystem_distinct,
+        
+        countif(`operatingSystem` is not null) as operatingSystem_not_null,
+        
+        cast(min(`operatingSystem`) as string) as operatingSystem_min,
+        
+        cast(min(`operatingSystem`) as string) as operatingSystem_max,
+        
+        count(`dataFonTerminalId`) as dataFonTerminalId_total,
+        
+        count(distinct(`dataFonTerminalId`)) as dataFonTerminalId_distinct,
+        
+        countif(`dataFonTerminalId` is not null) as dataFonTerminalId_not_null,
+        
+        cast(min(`dataFonTerminalId`) as string) as dataFonTerminalId_min,
+        
+        cast(min(`dataFonTerminalId`) as string) as dataFonTerminalId_max,
+        
+        count(`contact2`) as contact2_total,
+        
+        count(distinct(`contact2`)) as contact2_distinct,
+        
+        countif(`contact2` is not null) as contact2_not_null,
+        
+        cast(min(`contact2`) as string) as contact2_min,
+        
+        cast(min(`contact2`) as string) as contact2_max,
+        
+        count(`terminalTypeId`) as terminalTypeId_total,
+        
+        count(distinct(`terminalTypeId`)) as terminalTypeId_distinct,
+        
+        countif(`terminalTypeId` is not null) as terminalTypeId_not_null,
+        
+        cast(min(`terminalTypeId`) as string) as terminalTypeId_min,
+        
+        cast(min(`terminalTypeId`) as string) as terminalTypeId_max,
+        
+        count(`phone2`) as phone2_total,
+        
+        count(distinct(`phone2`)) as phone2_distinct,
+        
+        countif(`phone2` is not null) as phone2_not_null,
+        
+        cast(min(`phone2`) as string) as phone2_min,
+        
+        cast(min(`phone2`) as string) as phone2_max,
+        
+        count(`phone`) as phone_total,
+        
+        count(distinct(`phone`)) as phone_distinct,
+        
+        countif(`phone` is not null) as phone_not_null,
+        
+        cast(min(`phone`) as string) as phone_min,
+        
+        cast(min(`phone`) as string) as phone_max,
+        
+        count(`mobile`) as mobile_total,
+        
+        count(distinct(`mobile`)) as mobile_distinct,
+        
+        countif(`mobile` is not null) as mobile_not_null,
+        
+        cast(min(`mobile`) as string) as mobile_min,
+        
+        cast(min(`mobile`) as string) as mobile_max,
+        
+        count(`mobile2`) as mobile2_total,
+        
+        count(distinct(`mobile2`)) as mobile2_distinct,
+        
+        countif(`mobile2` is not null) as mobile2_not_null,
+        
+        cast(min(`mobile2`) as string) as mobile2_min,
+        
+        cast(min(`mobile2`) as string) as mobile2_max,
+        
+        count(`email`) as email_total,
+        
+        count(distinct(`email`)) as email_distinct,
+        
+        countif(`email` is not null) as email_not_null,
+        
+        cast(min(`email`) as string) as email_min,
+        
+        cast(min(`email`) as string) as email_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`parentOfficeId`) as parentOfficeId_total,
+        
+        count(distinct(`parentOfficeId`)) as parentOfficeId_distinct,
+        
+        countif(`parentOfficeId` is not null) as parentOfficeId_not_null,
+        
+        cast(min(`parentOfficeId`) as string) as parentOfficeId_min,
+        
+        cast(min(`parentOfficeId`) as string) as parentOfficeId_max,
+        
+        count(`officeClassId`) as officeClassId_total,
+        
+        count(distinct(`officeClassId`)) as officeClassId_distinct,
+        
+        countif(`officeClassId` is not null) as officeClassId_not_null,
+        
+        cast(min(`officeClassId`) as string) as officeClassId_min,
+        
+        cast(min(`officeClassId`) as string) as officeClassId_max,
+        
+        count(`timezoneId`) as timezoneId_total,
+        
+        count(distinct(`timezoneId`)) as timezoneId_distinct,
+        
+        countif(`timezoneId` is not null) as timezoneId_not_null,
+        
+        cast(min(`timezoneId`) as string) as timezoneId_min,
+        
+        cast(min(`timezoneId`) as string) as timezoneId_max,
+        
+        count(`currencyId`) as currencyId_total,
+        
+        count(distinct(`currencyId`)) as currencyId_distinct,
+        
+        countif(`currencyId` is not null) as currencyId_not_null,
+        
+        cast(min(`currencyId`) as string) as currencyId_min,
+        
+        cast(min(`currencyId`) as string) as currencyId_max,
+        
+        count(`dateFormat`) as dateFormat_total,
+        
+        count(distinct(`dateFormat`)) as dateFormat_distinct,
+        
+        countif(`dateFormat` is not null) as dateFormat_not_null,
+        
+        cast(min(`dateFormat`) as string) as dateFormat_min,
+        
+        cast(min(`dateFormat`) as string) as dateFormat_max,
+        
+        count(`dateTimeFormat`) as dateTimeFormat_total,
+        
+        count(distinct(`dateTimeFormat`)) as dateTimeFormat_distinct,
+        
+        countif(`dateTimeFormat` is not null) as dateTimeFormat_not_null,
+        
+        cast(min(`dateTimeFormat`) as string) as dateTimeFormat_min,
+        
+        cast(min(`dateTimeFormat`) as string) as dateTimeFormat_max,
+        
+        count(`timeFormat`) as timeFormat_total,
+        
+        count(distinct(`timeFormat`)) as timeFormat_distinct,
+        
+        countif(`timeFormat` is not null) as timeFormat_not_null,
+        
+        cast(min(`timeFormat`) as string) as timeFormat_min,
+        
+        cast(min(`timeFormat`) as string) as timeFormat_max,
+        
+        count(`unitOfMeasurementId`) as unitOfMeasurementId_total,
+        
+        count(distinct(`unitOfMeasurementId`)) as unitOfMeasurementId_distinct,
+        
+        countif(`unitOfMeasurementId` is not null) as unitOfMeasurementId_not_null,
+        
+        cast(min(`unitOfMeasurementId`) as string) as unitOfMeasurementId_min,
+        
+        cast(min(`unitOfMeasurementId`) as string) as unitOfMeasurementId_max,
+        
+        count(`priceListId`) as priceListId_total,
+        
+        count(distinct(`priceListId`)) as priceListId_distinct,
+        
+        countif(`priceListId` is not null) as priceListId_not_null,
+        
+        cast(min(`priceListId`) as string) as priceListId_min,
+        
+        cast(min(`priceListId`) as string) as priceListId_max,
+        
+        count(`externalCode`) as externalCode_total,
+        
+        count(distinct(`externalCode`)) as externalCode_distinct,
+        
+        countif(`externalCode` is not null) as externalCode_not_null,
+        
+        cast(min(`externalCode`) as string) as externalCode_min,
+        
+        cast(min(`externalCode`) as string) as externalCode_max,
+        
+        count(`createdBy`) as createdBy_total,
+        
+        count(distinct(`createdBy`)) as createdBy_distinct,
+        
+        countif(`createdBy` is not null) as createdBy_not_null,
+        
+        cast(min(`createdBy`) as string) as createdBy_min,
+        
+        cast(min(`createdBy`) as string) as createdBy_max,
+        
+        count(`modifiedBy`) as modifiedBy_total,
+        
+        count(distinct(`modifiedBy`)) as modifiedBy_distinct,
+        
+        countif(`modifiedBy` is not null) as modifiedBy_not_null,
+        
+        cast(min(`modifiedBy`) as string) as modifiedBy_min,
+        
+        cast(min(`modifiedBy`) as string) as modifiedBy_max,
+        
+        count(`registrationDate`) as registrationDate_total,
+        
+        count(distinct(`registrationDate`)) as registrationDate_distinct,
+        
+        countif(`registrationDate` is not null) as registrationDate_not_null,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_min,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_oficina_org    
+    ########################
+2023-09-11 13:56:56,429 - logger - INFO - Query Execution Ends
+2023-09-11 13:56:56,430 - logger - INFO - Total Time Taken to execute query is 12.115 sec
+2023-09-11 13:56:56,554 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_planillareparto_env  
+     SELECT 
+        count(`deliverySheetId`) as deliverySheetId_total,
+        
+        count(distinct(`deliverySheetId`)) as deliverySheetId_distinct,
+        
+        countif(`deliverySheetId` is not null) as deliverySheetId_not_null,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_min,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`officeId`) as officeId_total,
+        
+        count(distinct(`officeId`)) as officeId_distinct,
+        
+        countif(`officeId` is not null) as officeId_not_null,
+        
+        cast(min(`officeId`) as string) as officeId_min,
+        
+        cast(min(`officeId`) as string) as officeId_max,
+        
+        count(`messengerId`) as messengerId_total,
+        
+        count(distinct(`messengerId`)) as messengerId_distinct,
+        
+        countif(`messengerId` is not null) as messengerId_not_null,
+        
+        cast(min(`messengerId`) as string) as messengerId_min,
+        
+        cast(min(`messengerId`) as string) as messengerId_max,
+        
+        count(`vehicleId`) as vehicleId_total,
+        
+        count(distinct(`vehicleId`)) as vehicleId_distinct,
+        
+        countif(`vehicleId` is not null) as vehicleId_not_null,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_min,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_max,
+        
+        count(`carrierId`) as carrierId_total,
+        
+        count(distinct(`carrierId`)) as carrierId_distinct,
+        
+        countif(`carrierId` is not null) as carrierId_not_null,
+        
+        cast(min(`carrierId`) as string) as carrierId_min,
+        
+        cast(min(`carrierId`) as string) as carrierId_max,
+        
+        count(`assignmentTypeId`) as assignmentTypeId_total,
+        
+        count(distinct(`assignmentTypeId`)) as assignmentTypeId_distinct,
+        
+        countif(`assignmentTypeId` is not null) as assignmentTypeId_not_null,
+        
+        cast(min(`assignmentTypeId`) as string) as assignmentTypeId_min,
+        
+        cast(min(`assignmentTypeId`) as string) as assignmentTypeId_max,
+        
+        count(`serviceOrder`) as serviceOrder_total,
+        
+        count(distinct(`serviceOrder`)) as serviceOrder_distinct,
+        
+        countif(`serviceOrder` is not null) as serviceOrder_not_null,
+        
+        cast(min(`serviceOrder`) as string) as serviceOrder_min,
+        
+        cast(min(`serviceOrder`) as string) as serviceOrder_max,
+        
+        count(`user`) as user_total,
+        
+        count(distinct(`user`)) as user_distinct,
+        
+        countif(`user` is not null) as user_not_null,
+        
+        cast(min(`user`) as string) as user_min,
+        
+        cast(min(`user`) as string) as user_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`confirmationDate`) as confirmationDate_total,
+        
+        count(distinct(`confirmationDate`)) as confirmationDate_distinct,
+        
+        countif(`confirmationDate` is not null) as confirmationDate_not_null,
+        
+        cast(min(`confirmationDate`) as string) as confirmationDate_min,
+        
+        cast(min(`confirmationDate`) as string) as confirmationDate_max,
+        
+        count(`operationClosureDate`) as operationClosureDate_total,
+        
+        count(distinct(`operationClosureDate`)) as operationClosureDate_distinct,
+        
+        countif(`operationClosureDate` is not null) as operationClosureDate_not_null,
+        
+        cast(min(`operationClosureDate`) as string) as operationClosureDate_min,
+        
+        cast(min(`operationClosureDate`) as string) as operationClosureDate_max,
+        
+        count(`messengerClosureDate`) as messengerClosureDate_total,
+        
+        count(distinct(`messengerClosureDate`)) as messengerClosureDate_distinct,
+        
+        countif(`messengerClosureDate` is not null) as messengerClosureDate_not_null,
+        
+        cast(min(`messengerClosureDate`) as string) as messengerClosureDate_min,
+        
+        cast(min(`messengerClosureDate`) as string) as messengerClosureDate_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`creation`) as creation_total,
+        
+        count(distinct(`creation`)) as creation_distinct,
+        
+        countif(`creation` is not null) as creation_not_null,
+        
+        cast(min(`creation`) as string) as creation_min,
+        
+        cast(min(`creation`) as string) as creation_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_planillareparto_env    
+    ########################
+2023-09-11 13:57:08,879 - logger - INFO - Query Execution Ends
+2023-09-11 13:57:08,880 - logger - INFO - Total Time Taken to execute query is 12.315 sec
+2023-09-11 13:57:08,979 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_poblacion_cor  
+     SELECT 
+        count(`populationId`) as populationId_total,
+        
+        count(distinct(`populationId`)) as populationId_distinct,
+        
+        countif(`populationId` is not null) as populationId_not_null,
+        
+        cast(min(`populationId`) as string) as populationId_min,
+        
+        cast(min(`populationId`) as string) as populationId_max,
+        
+        count(`populationCode`) as populationCode_total,
+        
+        count(distinct(`populationCode`)) as populationCode_distinct,
+        
+        countif(`populationCode` is not null) as populationCode_not_null,
+        
+        cast(min(`populationCode`) as string) as populationCode_min,
+        
+        cast(min(`populationCode`) as string) as populationCode_max,
+        
+        count(`populationTypeId`) as populationTypeId_total,
+        
+        count(distinct(`populationTypeId`)) as populationTypeId_distinct,
+        
+        countif(`populationTypeId` is not null) as populationTypeId_not_null,
+        
+        cast(min(`populationTypeId`) as string) as populationTypeId_min,
+        
+        cast(min(`populationTypeId`) as string) as populationTypeId_max,
+        
+        count(`masterPopulationId`) as masterPopulationId_total,
+        
+        count(distinct(`masterPopulationId`)) as masterPopulationId_distinct,
+        
+        countif(`masterPopulationId` is not null) as masterPopulationId_not_null,
+        
+        cast(min(`masterPopulationId`) as string) as masterPopulationId_min,
+        
+        cast(min(`masterPopulationId`) as string) as masterPopulationId_max,
+        
+        count(`countryId`) as countryId_total,
+        
+        count(distinct(`countryId`)) as countryId_distinct,
+        
+        countif(`countryId` is not null) as countryId_not_null,
+        
+        cast(min(`countryId`) as string) as countryId_min,
+        
+        cast(min(`countryId`) as string) as countryId_max,
+        
+        count(`countryStateId`) as countryStateId_total,
+        
+        count(distinct(`countryStateId`)) as countryStateId_distinct,
+        
+        countif(`countryStateId` is not null) as countryStateId_not_null,
+        
+        cast(min(`countryStateId`) as string) as countryStateId_min,
+        
+        cast(min(`countryStateId`) as string) as countryStateId_max,
+        
+        count(`name`) as name_total,
+        
+        count(distinct(`name`)) as name_distinct,
+        
+        countif(`name` is not null) as name_not_null,
+        
+        cast(min(`name`) as string) as name_min,
+        
+        cast(min(`name`) as string) as name_max,
+        
+        count(`abbreviation`) as abbreviation_total,
+        
+        count(distinct(`abbreviation`)) as abbreviation_distinct,
+        
+        countif(`abbreviation` is not null) as abbreviation_not_null,
+        
+        cast(min(`abbreviation`) as string) as abbreviation_min,
+        
+        cast(min(`abbreviation`) as string) as abbreviation_max,
+        
+        count(`fullName`) as fullName_total,
+        
+        count(distinct(`fullName`)) as fullName_distinct,
+        
+        countif(`fullName` is not null) as fullName_not_null,
+        
+        cast(min(`fullName`) as string) as fullName_min,
+        
+        cast(min(`fullName`) as string) as fullName_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`login`) as login_total,
+        
+        count(distinct(`login`)) as login_distinct,
+        
+        countif(`login` is not null) as login_not_null,
+        
+        cast(min(`login`) as string) as login_min,
+        
+        cast(min(`login`) as string) as login_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_poblacion_cor    
+    ########################
+2023-09-11 13:57:18,969 - logger - INFO - Query Execution Ends
+2023-09-11 13:57:18,970 - logger - INFO - Total Time Taken to execute query is 9.955 sec
+2023-09-11 13:57:19,067 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_repartoenvio_env  
+     SELECT 
+        count(`shipmentDeliveryId`) as shipmentDeliveryId_total,
+        
+        count(distinct(`shipmentDeliveryId`)) as shipmentDeliveryId_distinct,
+        
+        countif(`shipmentDeliveryId` is not null) as shipmentDeliveryId_not_null,
+        
+        cast(min(`shipmentDeliveryId`) as string) as shipmentDeliveryId_min,
+        
+        cast(min(`shipmentDeliveryId`) as string) as shipmentDeliveryId_max,
+        
+        count(`shipmentId`) as shipmentId_total,
+        
+        count(distinct(`shipmentId`)) as shipmentId_distinct,
+        
+        countif(`shipmentId` is not null) as shipmentId_not_null,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_min,
+        
+        cast(min(`shipmentId`) as string) as shipmentId_max,
+        
+        count(`shipmentNumber`) as shipmentNumber_total,
+        
+        count(distinct(`shipmentNumber`)) as shipmentNumber_distinct,
+        
+        countif(`shipmentNumber` is not null) as shipmentNumber_not_null,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_min,
+        
+        cast(min(`shipmentNumber`) as string) as shipmentNumber_max,
+        
+        count(`deliverySheetId`) as deliverySheetId_total,
+        
+        count(distinct(`deliverySheetId`)) as deliverySheetId_distinct,
+        
+        countif(`deliverySheetId` is not null) as deliverySheetId_not_null,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_min,
+        
+        cast(min(`deliverySheetId`) as string) as deliverySheetId_max,
+        
+        count(`assignmentTypeId`) as assignmentTypeId_total,
+        
+        count(distinct(`assignmentTypeId`)) as assignmentTypeId_distinct,
+        
+        countif(`assignmentTypeId` is not null) as assignmentTypeId_not_null,
+        
+        cast(min(`assignmentTypeId`) as string) as assignmentTypeId_min,
+        
+        cast(min(`assignmentTypeId`) as string) as assignmentTypeId_max,
+        
+        count(`isUnloaded`) as isUnloaded_total,
+        
+        count(distinct(`isUnloaded`)) as isUnloaded_distinct,
+        
+        countif(`isUnloaded` is not null) as isUnloaded_not_null,
+        
+        cast(min(`isUnloaded`) as string) as isUnloaded_min,
+        
+        cast(min(`isUnloaded`) as string) as isUnloaded_max,
+        
+        count(`loadingUserName`) as loadingUserName_total,
+        
+        count(distinct(`loadingUserName`)) as loadingUserName_distinct,
+        
+        countif(`loadingUserName` is not null) as loadingUserName_not_null,
+        
+        cast(min(`loadingUserName`) as string) as loadingUserName_min,
+        
+        cast(min(`loadingUserName`) as string) as loadingUserName_max,
+        
+        count(`loadingDate`) as loadingDate_total,
+        
+        count(distinct(`loadingDate`)) as loadingDate_distinct,
+        
+        countif(`loadingDate` is not null) as loadingDate_not_null,
+        
+        cast(min(`loadingDate`) as string) as loadingDate_min,
+        
+        cast(min(`loadingDate`) as string) as loadingDate_max,
+        
+        count(`unloadingUserName`) as unloadingUserName_total,
+        
+        count(distinct(`unloadingUserName`)) as unloadingUserName_distinct,
+        
+        countif(`unloadingUserName` is not null) as unloadingUserName_not_null,
+        
+        cast(min(`unloadingUserName`) as string) as unloadingUserName_min,
+        
+        cast(min(`unloadingUserName`) as string) as unloadingUserName_max,
+        
+        count(`unloadingDate`) as unloadingDate_total,
+        
+        count(distinct(`unloadingDate`)) as unloadingDate_distinct,
+        
+        countif(`unloadingDate` is not null) as unloadingDate_not_null,
+        
+        cast(min(`unloadingDate`) as string) as unloadingDate_min,
+        
+        cast(min(`unloadingDate`) as string) as unloadingDate_max,
+        
+        count(`wasFulfilled`) as wasFulfilled_total,
+        
+        count(distinct(`wasFulfilled`)) as wasFulfilled_distinct,
+        
+        countif(`wasFulfilled` is not null) as wasFulfilled_not_null,
+        
+        cast(min(`wasFulfilled`) as string) as wasFulfilled_min,
+        
+        cast(min(`wasFulfilled`) as string) as wasFulfilled_max,
+        
+        count(`fulfillmentDate`) as fulfillmentDate_total,
+        
+        count(distinct(`fulfillmentDate`)) as fulfillmentDate_distinct,
+        
+        countif(`fulfillmentDate` is not null) as fulfillmentDate_not_null,
+        
+        cast(min(`fulfillmentDate`) as string) as fulfillmentDate_min,
+        
+        cast(min(`fulfillmentDate`) as string) as fulfillmentDate_max,
+        
+        count(`wasSuccessful`) as wasSuccessful_total,
+        
+        count(distinct(`wasSuccessful`)) as wasSuccessful_distinct,
+        
+        countif(`wasSuccessful` is not null) as wasSuccessful_not_null,
+        
+        cast(min(`wasSuccessful`) as string) as wasSuccessful_min,
+        
+        cast(min(`wasSuccessful`) as string) as wasSuccessful_max,
+        
+        count(`wasDeleted`) as wasDeleted_total,
+        
+        count(distinct(`wasDeleted`)) as wasDeleted_distinct,
+        
+        countif(`wasDeleted` is not null) as wasDeleted_not_null,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_min,
+        
+        cast(min(`wasDeleted`) as string) as wasDeleted_max,
+        
+        count(`sequence`) as sequence_total,
+        
+        count(distinct(`sequence`)) as sequence_distinct,
+        
+        countif(`sequence` is not null) as sequence_not_null,
+        
+        cast(min(`sequence`) as string) as sequence_min,
+        
+        cast(min(`sequence`) as string) as sequence_max,
+        
+        count(`longitude`) as longitude_total,
+        
+        count(distinct(`longitude`)) as longitude_distinct,
+        
+        countif(`longitude` is not null) as longitude_not_null,
+        
+        cast(min(`longitude`) as string) as longitude_min,
+        
+        cast(min(`longitude`) as string) as longitude_max,
+        
+        count(`latitude`) as latitude_total,
+        
+        count(distinct(`latitude`)) as latitude_distinct,
+        
+        countif(`latitude` is not null) as latitude_not_null,
+        
+        cast(min(`latitude`) as string) as latitude_min,
+        
+        cast(min(`latitude`) as string) as latitude_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_repartoenvio_env    
+    ########################
+2023-09-11 13:57:32,836 - logger - INFO - Query Execution Ends
+2023-09-11 13:57:32,836 - logger - INFO - Total Time Taken to execute query is 13.769 sec
+2023-09-11 13:57:32,935 - logger - INFO - 
+    ########################
+     tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_vehiculo_veh  
+     SELECT 
+        count(`vehicleId`) as vehicleId_total,
+        
+        count(distinct(`vehicleId`)) as vehicleId_distinct,
+        
+        countif(`vehicleId` is not null) as vehicleId_not_null,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_min,
+        
+        cast(min(`vehicleId`) as string) as vehicleId_max,
+        
+        count(`licensePlate`) as licensePlate_total,
+        
+        count(distinct(`licensePlate`)) as licensePlate_distinct,
+        
+        countif(`licensePlate` is not null) as licensePlate_not_null,
+        
+        cast(min(`licensePlate`) as string) as licensePlate_min,
+        
+        cast(min(`licensePlate`) as string) as licensePlate_max,
+        
+        count(`number`) as number_total,
+        
+        count(distinct(`number`)) as number_distinct,
+        
+        countif(`number` is not null) as number_not_null,
+        
+        cast(min(`number`) as string) as number_min,
+        
+        cast(min(`number`) as string) as number_max,
+        
+        count(`companyId`) as companyId_total,
+        
+        count(distinct(`companyId`)) as companyId_distinct,
+        
+        countif(`companyId` is not null) as companyId_not_null,
+        
+        cast(min(`companyId`) as string) as companyId_min,
+        
+        cast(min(`companyId`) as string) as companyId_max,
+        
+        count(`ancestorOfficeId`) as ancestorOfficeId_total,
+        
+        count(distinct(`ancestorOfficeId`)) as ancestorOfficeId_distinct,
+        
+        countif(`ancestorOfficeId` is not null) as ancestorOfficeId_not_null,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_min,
+        
+        cast(min(`ancestorOfficeId`) as string) as ancestorOfficeId_max,
+        
+        count(`brandId`) as brandId_total,
+        
+        count(distinct(`brandId`)) as brandId_distinct,
+        
+        countif(`brandId` is not null) as brandId_not_null,
+        
+        cast(min(`brandId`) as string) as brandId_min,
+        
+        cast(min(`brandId`) as string) as brandId_max,
+        
+        count(`lineId`) as lineId_total,
+        
+        count(distinct(`lineId`)) as lineId_distinct,
+        
+        countif(`lineId` is not null) as lineId_not_null,
+        
+        cast(min(`lineId`) as string) as lineId_min,
+        
+        cast(min(`lineId`) as string) as lineId_max,
+        
+        count(`colorId`) as colorId_total,
+        
+        count(distinct(`colorId`)) as colorId_distinct,
+        
+        countif(`colorId` is not null) as colorId_not_null,
+        
+        cast(min(`colorId`) as string) as colorId_min,
+        
+        cast(min(`colorId`) as string) as colorId_max,
+        
+        count(`bodyId`) as bodyId_total,
+        
+        count(distinct(`bodyId`)) as bodyId_distinct,
+        
+        countif(`bodyId` is not null) as bodyId_not_null,
+        
+        cast(min(`bodyId`) as string) as bodyId_min,
+        
+        cast(min(`bodyId`) as string) as bodyId_max,
+        
+        count(`chassisNumber`) as chassisNumber_total,
+        
+        count(distinct(`chassisNumber`)) as chassisNumber_distinct,
+        
+        countif(`chassisNumber` is not null) as chassisNumber_not_null,
+        
+        cast(min(`chassisNumber`) as string) as chassisNumber_min,
+        
+        cast(min(`chassisNumber`) as string) as chassisNumber_max,
+        
+        count(`status`) as status_total,
+        
+        count(distinct(`status`)) as status_distinct,
+        
+        countif(`status` is not null) as status_not_null,
+        
+        cast(min(`status`) as string) as status_min,
+        
+        cast(min(`status`) as string) as status_max,
+        
+        count(`tare`) as tare_total,
+        
+        count(distinct(`tare`)) as tare_distinct,
+        
+        countif(`tare` is not null) as tare_not_null,
+        
+        cast(min(`tare`) as string) as tare_min,
+        
+        cast(min(`tare`) as string) as tare_max,
+        
+        count(`capacity`) as capacity_total,
+        
+        count(distinct(`capacity`)) as capacity_distinct,
+        
+        countif(`capacity` is not null) as capacity_not_null,
+        
+        cast(min(`capacity`) as string) as capacity_min,
+        
+        cast(min(`capacity`) as string) as capacity_max,
+        
+        count(`internalManifest`) as internalManifest_total,
+        
+        count(distinct(`internalManifest`)) as internalManifest_distinct,
+        
+        countif(`internalManifest` is not null) as internalManifest_not_null,
+        
+        cast(min(`internalManifest`) as string) as internalManifest_min,
+        
+        cast(min(`internalManifest`) as string) as internalManifest_max,
+        
+        count(`model`) as model_total,
+        
+        count(distinct(`model`)) as model_distinct,
+        
+        countif(`model` is not null) as model_not_null,
+        
+        cast(min(`model`) as string) as model_min,
+        
+        cast(min(`model`) as string) as model_max,
+        
+        count(`vehicleConfigId`) as vehicleConfigId_total,
+        
+        count(distinct(`vehicleConfigId`)) as vehicleConfigId_distinct,
+        
+        countif(`vehicleConfigId` is not null) as vehicleConfigId_not_null,
+        
+        cast(min(`vehicleConfigId`) as string) as vehicleConfigId_min,
+        
+        cast(min(`vehicleConfigId`) as string) as vehicleConfigId_max,
+        
+        count(`vehicleDesignationId`) as vehicleDesignationId_total,
+        
+        count(distinct(`vehicleDesignationId`)) as vehicleDesignationId_distinct,
+        
+        countif(`vehicleDesignationId` is not null) as vehicleDesignationId_not_null,
+        
+        cast(min(`vehicleDesignationId`) as string) as vehicleDesignationId_min,
+        
+        cast(min(`vehicleDesignationId`) as string) as vehicleDesignationId_max,
+        
+        count(`registrationDate`) as registrationDate_total,
+        
+        count(distinct(`registrationDate`)) as registrationDate_distinct,
+        
+        countif(`registrationDate` is not null) as registrationDate_not_null,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_min,
+        
+        cast(min(`registrationDate`) as string) as registrationDate_max,
+        
+        count(`vehicleSerial`) as vehicleSerial_total,
+        
+        count(distinct(`vehicleSerial`)) as vehicleSerial_distinct,
+        
+        countif(`vehicleSerial` is not null) as vehicleSerial_not_null,
+        
+        cast(min(`vehicleSerial`) as string) as vehicleSerial_min,
+        
+        cast(min(`vehicleSerial`) as string) as vehicleSerial_max,
+        
+        count(`vehicleSeries`) as vehicleSeries_total,
+        
+        count(distinct(`vehicleSeries`)) as vehicleSeries_distinct,
+        
+        countif(`vehicleSeries` is not null) as vehicleSeries_not_null,
+        
+        cast(min(`vehicleSeries`) as string) as vehicleSeries_min,
+        
+        cast(min(`vehicleSeries`) as string) as vehicleSeries_max,
+        
+        count(`engineNumber`) as engineNumber_total,
+        
+        count(distinct(`engineNumber`)) as engineNumber_distinct,
+        
+        countif(`engineNumber` is not null) as engineNumber_not_null,
+        
+        cast(min(`engineNumber`) as string) as engineNumber_min,
+        
+        cast(min(`engineNumber`) as string) as engineNumber_max,
+        
+        count(`fuelTypeId`) as fuelTypeId_total,
+        
+        count(distinct(`fuelTypeId`)) as fuelTypeId_distinct,
+        
+        countif(`fuelTypeId` is not null) as fuelTypeId_not_null,
+        
+        cast(min(`fuelTypeId`) as string) as fuelTypeId_min,
+        
+        cast(min(`fuelTypeId`) as string) as fuelTypeId_max,
+        
+        count(`vehicleGroupId`) as vehicleGroupId_total,
+        
+        count(distinct(`vehicleGroupId`)) as vehicleGroupId_distinct,
+        
+        countif(`vehicleGroupId` is not null) as vehicleGroupId_not_null,
+        
+        cast(min(`vehicleGroupId`) as string) as vehicleGroupId_min,
+        
+        cast(min(`vehicleGroupId`) as string) as vehicleGroupId_max,
+        
+        count(`modifyingUser`) as modifyingUser_total,
+        
+        count(distinct(`modifyingUser`)) as modifyingUser_distinct,
+        
+        countif(`modifyingUser` is not null) as modifyingUser_not_null,
+        
+        cast(min(`modifyingUser`) as string) as modifyingUser_min,
+        
+        cast(min(`modifyingUser`) as string) as modifyingUser_max,
+        
+        count(`vehicleClassId`) as vehicleClassId_total,
+        
+        count(distinct(`vehicleClassId`)) as vehicleClassId_distinct,
+        
+        countif(`vehicleClassId` is not null) as vehicleClassId_not_null,
+        
+        cast(min(`vehicleClassId`) as string) as vehicleClassId_min,
+        
+        cast(min(`vehicleClassId`) as string) as vehicleClassId_max,
+        
+        count(`ownershipTypeId`) as ownershipTypeId_total,
+        
+        count(distinct(`ownershipTypeId`)) as ownershipTypeId_distinct,
+        
+        countif(`ownershipTypeId` is not null) as ownershipTypeId_not_null,
+        
+        cast(min(`ownershipTypeId`) as string) as ownershipTypeId_min,
+        
+        cast(min(`ownershipTypeId`) as string) as ownershipTypeId_max,
+        
+        count(`vehicleRegistrationNumber`) as vehicleRegistrationNumber_total,
+        
+        count(distinct(`vehicleRegistrationNumber`)) as vehicleRegistrationNumber_distinct,
+        
+        countif(`vehicleRegistrationNumber` is not null) as vehicleRegistrationNumber_not_null,
+        
+        cast(min(`vehicleRegistrationNumber`) as string) as vehicleRegistrationNumber_min,
+        
+        cast(min(`vehicleRegistrationNumber`) as string) as vehicleRegistrationNumber_max,
+        
+        count(`operationCardNumber`) as operationCardNumber_total,
+        
+        count(distinct(`operationCardNumber`)) as operationCardNumber_distinct,
+        
+        countif(`operationCardNumber` is not null) as operationCardNumber_not_null,
+        
+        cast(min(`operationCardNumber`) as string) as operationCardNumber_min,
+        
+        cast(min(`operationCardNumber`) as string) as operationCardNumber_max,
+        
+        count(`operationCardIssueDate`) as operationCardIssueDate_total,
+        
+        count(distinct(`operationCardIssueDate`)) as operationCardIssueDate_distinct,
+        
+        countif(`operationCardIssueDate` is not null) as operationCardIssueDate_not_null,
+        
+        cast(min(`operationCardIssueDate`) as string) as operationCardIssueDate_min,
+        
+        cast(min(`operationCardIssueDate`) as string) as operationCardIssueDate_max,
+        
+        count(`operationCardExpirationDate`) as operationCardExpirationDate_total,
+        
+        count(distinct(`operationCardExpirationDate`)) as operationCardExpirationDate_distinct,
+        
+        countif(`operationCardExpirationDate` is not null) as operationCardExpirationDate_not_null,
+        
+        cast(min(`operationCardExpirationDate`) as string) as operationCardExpirationDate_min,
+        
+        cast(min(`operationCardExpirationDate`) as string) as operationCardExpirationDate_max,
+        
+        count(`creatingUser`) as creatingUser_total,
+        
+        count(distinct(`creatingUser`)) as creatingUser_distinct,
+        
+        countif(`creatingUser` is not null) as creatingUser_not_null,
+        
+        cast(min(`creatingUser`) as string) as creatingUser_min,
+        
+        cast(min(`creatingUser`) as string) as creatingUser_max,
+        
+        count(`carrierId`) as carrierId_total,
+        
+        count(distinct(`carrierId`)) as carrierId_distinct,
+        
+        countif(`carrierId` is not null) as carrierId_not_null,
+        
+        cast(min(`carrierId`) as string) as carrierId_min,
+        
+        cast(min(`carrierId`) as string) as carrierId_max,
+        
+        count(`externalControlId`) as externalControlId_total,
+        
+        count(distinct(`externalControlId`)) as externalControlId_distinct,
+        
+        countif(`externalControlId` is not null) as externalControlId_not_null,
+        
+        cast(min(`externalControlId`) as string) as externalControlId_min,
+        
+        cast(min(`externalControlId`) as string) as externalControlId_max,
+        
+        count(`externalAdminId`) as externalAdminId_total,
+        
+        count(distinct(`externalAdminId`)) as externalAdminId_distinct,
+        
+        countif(`externalAdminId` is not null) as externalAdminId_not_null,
+        
+        cast(min(`externalAdminId`) as string) as externalAdminId_min,
+        
+        cast(min(`externalAdminId`) as string) as externalAdminId_max,
+        
+        count(`creationDate`) as creationDate_total,
+        
+        count(distinct(`creationDate`)) as creationDate_distinct,
+        
+        countif(`creationDate` is not null) as creationDate_not_null,
+        
+        cast(min(`creationDate`) as string) as creationDate_min,
+        
+        cast(min(`creationDate`) as string) as creationDate_max,
+        
+        count(`last_status_dttm`) as last_status_dttm_total,
+        
+        count(distinct(`last_status_dttm`)) as last_status_dttm_distinct,
+        
+        countif(`last_status_dttm` is not null) as last_status_dttm_not_null,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_min,
+        
+        cast(min(`last_status_dttm`) as string) as last_status_dttm_max,
+        
+        count(`dfl_job_name`) as dfl_job_name_total,
+        
+        count(distinct(`dfl_job_name`)) as dfl_job_name_distinct,
+        
+        countif(`dfl_job_name` is not null) as dfl_job_name_not_null,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_min,
+        
+        cast(min(`dfl_job_name`) as string) as dfl_job_name_max,
+        
+        count(`dfl_run_id`) as dfl_run_id_total,
+        
+        count(distinct(`dfl_run_id`)) as dfl_run_id_distinct,
+        
+        countif(`dfl_run_id` is not null) as dfl_run_id_not_null,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_min,
+        
+        cast(min(`dfl_run_id`) as string) as dfl_run_id_max,
+        
+        count(`dfl_src_name`) as dfl_src_name_total,
+        
+        count(distinct(`dfl_src_name`)) as dfl_src_name_distinct,
+        
+        countif(`dfl_src_name` is not null) as dfl_src_name_not_null,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_min,
+        
+        cast(min(`dfl_src_name`) as string) as dfl_src_name_max,
+        
+        count(`dfl_crte_tmst`) as dfl_crte_tmst_total,
+        
+        count(distinct(`dfl_crte_tmst`)) as dfl_crte_tmst_distinct,
+        
+        countif(`dfl_crte_tmst` is not null) as dfl_crte_tmst_not_null,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_min,
+        
+        cast(min(`dfl_crte_tmst`) as string) as dfl_crte_tmst_max FROM tc-sc-bi-bigdata-dfl-qa.acc_corp_co_dfl_qa.vw_acc_scha_tms_vehiculo_veh    
+    ########################
+2023-09-11 13:57:42,922 - logger - INFO - Query Execution Ends
+2023-09-11 13:57:42,923 - logger - INFO - Total Time Taken to execute query is 9.957 sec
+2023-09-11 13:57:43,104 - logger - INFO - ########################## END ##########################
